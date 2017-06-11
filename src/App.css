@@ -37,13 +37,13 @@ nav {
   width: 100px;
   padding: 18px;
   font-size: 20px;
-  color: #2C9CD6;
+  color: #2C3A46;
   text-decoration: none;
   text-align: center;
 }
 
 .section a:hover {
-  color: #07ADFF;
+  color: #596f82;
   padding: 16px 18px;
   font-size: 22px;
 }
@@ -63,6 +63,7 @@ nav {
 #about {
   display: inline-block;
   flex: 1;
+  height: 500px;
   height: auto;
   background-color: #f4f6f7;
   padding: 40px 0px 40px 0px;
@@ -73,6 +74,7 @@ nav {
 #contact {
   display: inline-block;
   flex: 1;
+  height: 300px;
   height: auto;
   background-color: #383737;
   padding: 40px 0px 40px 0px;
