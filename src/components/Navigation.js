@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import Scrollchor from 'react-scrollchor';
 
 class Navigation extends Component {
   render() {
@@ -8,9 +8,9 @@ class Navigation extends Component {
         <h1>Francheska Guzman</h1>
     	  <nav>
     	    <ul>
-    	      <li className="section"><NavLink to="#projects">Projects</NavLink></li>
-    	      <li className="section"><NavLink to="#about">About</NavLink></li>
-    	      <li className="section"><NavLink to="#contact">Contact</NavLink></li>
+    	      <li className="section"><Scrollchor to="#projects">Projects</Scrollchor></li>
+    	      <li className="section"><Scrollchor to="#about">About</Scrollchor></li>
+    	      <li className="section"><Scrollchor to="#contact">Contact</Scrollchor></li>
           </ul>
     	  </nav>
 	  </div>
