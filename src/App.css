@@ -64,6 +64,13 @@ nav {
   padding: 40px 0px;
 }
 
+/* Slideshow Component */
+
+.browser-version {
+  width: 1000px;
+  height: 550px;
+}
+
 /* About Component */
 
 #about {

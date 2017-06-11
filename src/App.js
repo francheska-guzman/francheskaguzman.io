@@ -7,6 +7,7 @@ import FourOFour from './components/FourOFour';
 import Index from './components/Index';
 import Navigation from './components/Navigation';
 import Projects from './components/Projects';
+import ProjectsGallery from './components/ProjectsGallery';
 import './App.css';
 import {
         BrowserRouter as Router,
@@ -24,6 +25,7 @@ class App extends Component {
         <Navigation />
           <Switch>
             <Route path="/" exact component={() => (<Index />) }/>
+            <Route path="/projects" exact component={() => (<ProjectsGallery />) }/>
             <Route path="/#projects" exact component={() => (<Projects />) }/>
             <Route path="/#about" exact component={() => (<About />) }/>
             <Route path="/#contact" exact component={() => (<Contact />) }/>

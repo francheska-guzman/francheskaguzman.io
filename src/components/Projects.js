@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class Projects extends Component {
+  slideshow() {
+  	return (
+  	  <div className="slideshow">
+	    <img className="browser-version" src='images/browser/0.png' />
+	    <img className="browser-version" src='images/browser/1.png' />
+	  </div>
+  	)
+  }
+
   render() {
     return (
-      <div className="wrapper">
-        <h2>Projects</h2>
+      <div className="wrapper">  
+      	{this.slideshow()}	
+        <h3><NavLink to="/projects">Watch More Projects</NavLink></h3>
 	  </div>
     );
   }
