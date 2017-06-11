@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div class="wrapper">
+        <div className="wrapper">
         <Navigation />
           <Switch>
             <Route path="/" exact component={() => (<Index />) }/>
