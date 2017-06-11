@@ -37,7 +37,7 @@ nav {
   width: 100px;
   padding: 18px;
   font-size: 20px;
-  color: #2C3A46;
+  color: #3f5263;
   text-decoration: none;
   text-align: center;
 }
@@ -64,7 +64,6 @@ nav {
   display: inline-block;
   flex: 1;
   height: 500px;
-  height: auto;
   background-color: #f4f6f7;
   padding: 40px 0px 40px 0px;
 }
@@ -75,7 +74,6 @@ nav {
   display: inline-block;
   flex: 1;
   height: 300px;
-  height: auto;
   background-color: #383737;
   padding: 40px 0px 40px 0px;
 }
