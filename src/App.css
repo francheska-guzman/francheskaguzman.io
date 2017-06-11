@@ -1,13 +1,89 @@
-.wrapper {
-  display: flex;
+/* Global */
+
+body {
+  margin: 0 auto;
 }
 
-/* Footer */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation Component (includes Logo) */
+
+#menu {
+  display: inline;
+}
+
+h1 {
+  position: absolute;
+  padding: 0px 0px 0px 40px;
+  font-size: 28px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  text-align: right;
+}
+
+.section {
+  display: inline;
+  list-style: none;
+}
+
+.section a {
+  display: inline-block;
+  width: 100px;
+  padding: 18px;
+  font-size: 20px;
+  color: #2C9CD6;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section a:hover {
+  color: #07ADFF;
+  padding: 16px 18px;
+  font-size: 22px;
+}
+
+/* Projects Component */
+
+#projects {
+  display: inline-block;
+  flex: 1;
+  height: 700px;
+  background-color: #232830;
+  padding: 40px 0px;
+}
+
+/* About Component */
+
+#about {
+  display: inline-block;
+  flex: 1;
+  height: auto;
+  background-color: #f4f6f7;
+  padding: 40px 0px 40px 0px;
+}
+
+/* Contact Component */
+
+#contact {
+  display: inline-block;
+  flex: 1;
+  height: auto;
+  background-color: #383737;
+  padding: 40px 0px 40px 0px;
+}
+
+/* Footer Component */
 
 footer {
   display: inline-block;
-  width: 100%;
-  padding: 10px 0px 10px 0px;
+  flex: 1;
+  padding: 10px 0px;
   background-color: #232222;
   text-align: center;
 }
@@ -15,13 +91,13 @@ footer {
 .social {
   width: 30px;
   height: 30px;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 5px;
   transition: 1s;
 }
 
 .social:hover {
   width: 50px;
   height: 50px;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 5px;
   transition: 1s;
 }
