@@ -9,16 +9,22 @@ body {
   flex-direction: column;
 }
 
-/* Navigation Component (includes Logo) */
-
-#menu {
-  display: inline;
-}
+/* Text */
 
 h1 {
   position: absolute;
   padding: 0px 0px 0px 40px;
   font-size: 28px;
+}
+
+h2 {
+  margin: 0 0 0 20px;
+}
+
+/* Navigation Component (includes Logo) */
+
+#menu {
+  display: inline;
 }
 
 nav {
