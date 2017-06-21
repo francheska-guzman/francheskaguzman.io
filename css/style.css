@@ -53,10 +53,15 @@ p {
 }
 
 footer.page-footer {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .browser-version {
   width: 340px;
   height: 390px;
+}
+
+.social {
+  width: 48px;
+  height: 48px;
 }
