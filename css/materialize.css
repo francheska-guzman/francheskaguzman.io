@@ -980,7 +980,7 @@
 }
 
 .teal {
-  background-color: #009688 !important;
+  background-color: #e8e3e3 !important;
 }
 
 .teal-text {
@@ -2131,12 +2131,20 @@
   color: #FFFFFF !important;
 }
 
+.dark-beige-text {
+  color: #262424;
+}
+
 .transparent {
   background-color: transparent !important;
 }
 
 .transparent-text {
   color: transparent !important;
+}
+
+.beige-text {
+  color: #514b4b;
 }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -2863,7 +2871,7 @@ ul.staggered-list li {
 
 .page-footer {
   padding-top: 20px;
-  background-color: #ee6e73;
+  background-color: #d6cdcd;
 }
 
 .page-footer .footer-copyright {
@@ -2877,7 +2885,7 @@ ul.staggered-list li {
           align-items: center;
   padding: 10px 0px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: #330000;
+  background-color: #d6cdcd;
 }
 
 table, th, td {
