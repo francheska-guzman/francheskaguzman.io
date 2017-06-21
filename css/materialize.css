@@ -980,7 +980,7 @@
 }
 
 .teal {
-  background-color: #e8e3e3 !important;
+  background-color: #f9f9f9 !important;
 }
 
 .teal-text {
@@ -2871,7 +2871,7 @@ ul.staggered-list li {
 
 .page-footer {
   padding-top: 20px;
-  background-color: #d6cdcd;
+  background-color: #eaeaea;
 }
 
 .page-footer .footer-copyright {
@@ -2885,7 +2885,7 @@ ul.staggered-list li {
           align-items: center;
   padding: 10px 0px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: #d6cdcd;
+  background-color: #eaeaea;
 }
 
 table, th, td {
