@@ -103,17 +103,22 @@ a:active {
 .div-title {
 	text-align: center;
 	font-size: 20px;
+	padding: 40px;
 }
 
 /* Projects */
 
+#projects {
+	background-color: #F2F2F2;
+}
+
 .project {
-	margin: 50px;
+	margin: 0 50px;
 	height: auto;
 }
 
 .proj-image {
-	width: 320px;
+	width: 340px;
 	height: 400px;
 }
 
@@ -133,12 +138,13 @@ a:active {
 /* About */
 
 #about {
-	padding: 50px;
+	padding: 0;
+	background: #fcfcfc;
 }
 
 .about-para {
-	padding: 30px 0 0 0;
 	line-height: 30px;
+	padding: 0 50px;
 }
 
 /* Contact */
