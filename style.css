@@ -122,6 +122,10 @@ a:active {
 	font-size: 20px;
 }
 
+.proj-info {
+	font-size: 14px;
+}
+
 .app-live, .app-repo {
 	text-align: center;
 }
