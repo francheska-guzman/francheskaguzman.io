@@ -88,11 +88,16 @@ a:visited {
 	padding: 20px 15px;
 }
 
+.pad25 {
+	padding: 25px;
+}
+
 /* Introduction */
 
 #introduction {
 	text-align: center;
 	margin: 100px;
+	height: 300px;
 }
 
 .div-title {
@@ -102,23 +107,23 @@ a:visited {
 
 /* Projects */
 
-#projects {
-	padding: 50px 0;
-}
-
 .project {
 	margin: 50px;
 	height: auto;
 }
 
 .proj-image {
-	width: 350px;
-	height: 420px;
+	width: 320px;
+	height: 400px;
 }
 
 .proj-title {
 	text-align: center;
 	font-size: 20px;
+}
+
+.app-live, .app-repo {
+	text-align: center;
 }
 
 /* About */
@@ -129,7 +134,7 @@ a:visited {
 
 
 .about-para {
-	padding: 0 50px;
+	padding: 30px;
 	line-height: 30px;
 }
 
