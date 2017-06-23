@@ -165,7 +165,7 @@ ul {
 
 .about-para {
 	line-height: 30px;
-	padding: 0 25px 0 50px;
+	padding: 0 50px 0 50px;
 }
 
 /* Contact */
@@ -176,7 +176,7 @@ ul {
 
 .basic-info {
 	line-height: 30px;
-	padding: 0 50px 0 0;
+	padding: 0 50px 50px 50px;
 }
 
 /* Footer */
