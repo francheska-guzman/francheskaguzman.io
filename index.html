@@ -1,145 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Francheska Guzman</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body class="opacity">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Francheska Guzman</title>
 
-<!-- Navigation -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-<ul>
-  <li class="font18">
-	<a class="pad15" href="#projects">projects</a>
-	<a class="pad15" href="#about">about</a>
-	<a class="pad15" href="#contact">contact</a>
-  </li>
-</ul>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="opacity">
 
-<!-- My name -->
-	
-	<div id="introduction" class="pad25">
-		  <h1 class="font50 brown">Hi! I'm Francheska Guzman.</h1>
-		  <h2 class="font18 grey">web developer <span class="bonewhite font20 intermittent">|</span> accountant</h2>
-	</div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div>
+    </nav>
 
-<!-- My projects -->
+    <!-- Landing page -->
+    <div id="landing-page">
+      <div class="container">
+        <h1>Hi! I'm Francheska Guzman.</h1>
+        <h2>web developer <span class="bone-white intermittent">|</span> accountant</h2>
+      </div>
+    </div>
 
-	<div id="projects">
-	  <h3 class="div-title">PROJECTS</h3>
-	    <div class="flex centralize">
-		<div class="flex-col">
-		<div class="flex">
-			<div class="flex-1 project card">
-			  <div class="center">
-			  <img class="proj-image" src="./images/creditreport.png">
-			  </div>
-			  <div class="container">
-			  <h4 class="proj-title">Credit Report</h4>
-			  <span class="proj-info">The front-end and back-end of a financial technology web application focused on Credit Report. Type '1' (first user) or '2' (second user) in the provided input field, to get the user information from my API. The app calculate the results in base of the user information.</span>
-			  <h5 class="font16">Tecnologies used:</h5>
-			  <span class="proj-info">HTML, CSS, JavaScript, PostgreSQL, RESTful API, Node.js, Express.js, React, and React-Chart JS.</span>
-			  </div>
-			  <br />
-			  <div class="flex">
-				<a class="app-live flex-1" href="https://creditreportapp.herokuapp.com/" target="_blank">Live</a>
-				<a class="app-repo flex-1" href="https://github.com/francheska-guzman/credit-report" target="_blank">Repository</a>
-			  </div>
-		    </div>
-		    <div class="flex-1 project card">
-		      <div class="center">
-			  <img class="proj-image" src="./images/stockmarket.png">
-			  </div>
-			  <div class="container">
-			  <h4 class="proj-title">Stock Market</h4>
-			  <span class="proj-info">The front-end of a financial technology web application focused on the Stock Market.</span>
-			  <h5 class="font16">Tecnologies used:</h5>
-			  <span class="proj-info">HTML, CSS, and JavaScript.</span>
-			  <br /><br />
-			  <div class="flex">
-				<a class="app-live flex-1" href="https://francheska-guzman.github.io/stock-market/home.html" target="_blank">Live</a>
-				<a class="app-repo flex-1" href="https://github.com/francheska-guzman/stock-market" target="_blank">Repository</a>
-			    </div>
-			  </div>
-			  </div>
-			</div>
-			<br/><br/><br/>
-			<div class="flex">
-			<div class="flex-1 project card">
-			  <div class="center">
-			  <img class="proj-image" src="./images/connectfour.png">
-			  </div>
-			  <div class="container">
-			  <h4 class="proj-title">Connect Four</h4>
-			  <span class="proj-info">Connect Four is a two-player game board in which the players take turns dropping tokens from the top into a seven-column, six-row vertically suspended grid. The objective of the game is to be the first to form an horizontal, vertical, or diagonal line of four of one's own token.</span>
-			  <h5 class="font16">Tecnologies used:</h5>
-			  <span class="proj-info">HTML, CSS, and JavaScript.</span>
-			  <br /><br />
-			  <div class="flex">
-				<a class="app-live flex-1" href="https://francheska-guzman.github.io/connect-four/" target="_blank">Live</a>
-				<a class="app-repo flex-1" href="https://github.com/francheska-guzman/connect-four" target="_blank">Repository</a>
-			  </div>
-			</div>
-			</div>
-			<div class="flex-1 project card">
-			  <div class="center">
-		      <img class="proj-image" src="./images/canieatthis.png">
-		      </div>
-			  <h4 class="proj-title">Can I Eat This?</h4>
-			  <div class="container">
-			  <span class="proj-info">Save allergen preferences (such as peanut, lactose, or gluten-free), take a photo of any food product barcode or write the barcode number in the provided input field, and the app render the result.</span>
-		      <h5 class="font16">Tecnologies used:</h5>
-		      <span class="proj-info">HTML, CSS, JavaScript, PostgreSQL, ORC, RESTful API, Node.js, Express.js, and React.</span>
-		      <br /><br />
-			  <div class="flex">
-				<a class="app-live flex-1" href="https://ciethis.herokuapp.com/" target="_blank">Live</a>
-				<a class="app-repo flex-1" href="https://github.com/francheska-guzman/can-i-eat-this" target="_blank">Repository</a>
-		      </div>
-		      </div>
-			</div>
-	    </div>
-		</div>
-	    </div>
-	    <br/><br/><br/>
-	</div>
+    <!-- Projects -->
+    <div id="projects">
+      <div class="container">
+        <h3>PROJECTS</h3>
 
-<!-- About me -->
+        <div class="row">
 
-	<div id="about">
-	  <h3 class="div-title">ABOUT</h3>
-	  <p class="about-para">I'm a web developer based in New York, who grow up in San Juan, Puerto Rico. I recently completed a web development immersive course at General Assembly's, where I gained knowledge on how to build real world web applications in an agile environment. In addition to coding, I love to listen bossa nova, samba, jazz, and salsa music, has well watch animation and comedy movies, try new food recipes, keep learning English as a second language, and spend time with my family and friends.</p><br/><br/>
-	</div>
+          <!-- Project 1 -->
+          <div id="project" class="col-sm-6">
+            <img class="project-img center-block" src="./images/creditreport.png">
+            <div class="row">
+              <h4>Credit Report</h4>
+              <div class="row">
+                <a class="col-sm-6 project-btn" href="https://creditreportapp.herokuapp.com/">LIVE</a>
+                <a class="col-sm-6 project-btn" href="https://github.com/francheska-guzman/credit-report">CODE</a>
+              </div>
+            </div>
+          </div>
 
-<!-- My contact information -->
+          <!-- Project 2 -->
+          <div id="project" class="col-sm-6">
+            <img class="project-img center-block" src="./images/stockmarket.jpg">
+            <div class="row">
+              <h4>Stock Market</h4>
+              <div class="row">
+                <a class="col-sm-6 project-btn" href="https://francheska-guzman.github.io/stock-market/">LIVE</a>
+                <a class="col-sm-6 project-btn" href="https://github.com/francheska-guzman/stock-market">CODE</a>
+              </div>
+            </div>
+          </div>
 
-	<div id="contact">
-		<h3 class="div-title">CONTACT</h3>
-		  <div class="basic-info">
-			<span class="type">Name: </span><span class="field">Francheska Guzman</span>
-			  <br />
-			    <span class="type">Email: </span><span class="field">gffrancheska@gmail.com</span>
-			  <br />
-			<span class="type">Languages: </span><span class="field">English, Spanish</span>
-			  <br />
+        </div>
 
-			<form class="center" method="get" action="FrancheskaGuzmanResume.pdf">
-   			<button class="btn" type="submit">Download Resume</button>
-			</form>
-		  </div>
-	</div>
+        <div class="row">
 
-<!-- Footer that includes my social media links. -->
+          <!-- Project 3 -->
+          <div id="project" class="col-sm-6">
+            <img class="project-img center-block" src="./images/connectfour.png">
+            <div class="row">
+              <h4>Connect Four</h4>
+              <div class="row">
+                <a class="col-sm-6 project-btn" href="https://francheska-guzman.github.io/connect-four/">LIVE</a>
+                <a class="col-sm-6 project-btn" href="https://github.com/francheska-guzman/connect-four">CODE</a>
+              </div>
+            </div>
+          </div>
 
-	<footer class="flex center">
-	  <div class="flex-1">
-		<a href="https://github.com/francheska-guzman/">
-		<img class="social" alt="My GitHub Account" src="./images/githubmark.png"></a>
-		<a href="https://www.linkedin.com/in/francheska-guzman/">
-		<img class="social" alt="My LinkedIn Profile" src="./images/linkedinmark.png"></a>
-	  </div>
-	</footer>
+          <!-- Project 4 -->
+          <div id="project" class="col-sm-6">
+            <img class="project-img center-block" src="./images/canieatthis.png">
+            <div class="row">
+              <h4>Can I Eat This?</h4>
+              <div class="row">
+                <a class="col-sm-6 project-btn" href="https://ciethis.herokuapp.com/">LIVE</a>
+                <a class="col-sm-6 project-btn" href="https://github.com/francheska-guzman/can-i-eat-this">CODE</a>
+              </div>
+            </div>
+          </div>
 
+        </div>
 
-</body>
+      </div>
+    </div>
+
+    <!-- About me -->
+    <div id="about">
+      <div class="container">
+        <h3>ABOUT</h3>
+          <p class="me">I'm a web developer based in New York, who grow up in San Juan, Puerto Rico. I recently completed a web development immersive course at General Assembly's, where I gained knowledge on how to build real world web applications in an agile environment. In addition to coding, I love to listen bossa nova, samba, jazz, and salsa music, has well watch animation and comedy movies, try new food recipes, keep learning English as a second language, and spend time with my family and friends.</p>
+      </div>
+    </div>
+
+    <!-- My contact information -->
+    <div id="contact">
+      <div class="container">
+        <h3>CONTACT</h3>
+        <div class="row">
+          <div class="col-sm-8 contact-information">
+              <span>Name: </span><span>Francheska Guzman</span><br />
+              <span>Location: </span><span>New York, NY</span><br />
+              <span>Email: </span><span>gffrancheska@gmail.com</span><br />
+              <span>Languages: </span><span>English (Intermediate), Spanish (Native)</span><br />
+              <span>Top 10 Skills: </span><span>HTML5, CSS3, Vanilla JavaScript, jQuery, Node.js, Express.js, React, RESTful API, PostgreSQL, and Git.</span><br />
+              <!-- Resume -->
+              <form method="get" action="./documents/resume.pdf">
+              <button class="card resume-btn center-block" type="submit">Download Resume</button>
+              </form>
+          </div>
+          <div class="col-sm-4">
+            <!-- Photo -->
+            <img class="francheska-picture center-block" alt="Francheska Guzman" src="./images/francheska.jpg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer that includes my social media links. -->
+    <footer>
+      <!-- GitHub -->
+      <a href="https://github.com/francheska-guzman/">
+        <img class="mark-icon" alt="My GitHub Account" src="./images/githubmark.png"></a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/francheska-guzman/">
+        <img class="mark-icon" alt="My LinkedIn Profile" src="./images/linkedinmark.png"></a>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
