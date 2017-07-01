@@ -39,8 +39,8 @@ h4 {
 }
 
 h6 {
-	padding: 5%;
-	font-size: 16px;
+	padding: 0;
+	font-size: 14px;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -125,7 +125,7 @@ p {
   height: 235px;
   opacity: 0;
   transition: .5s ease;
-  background-color: #F9F9F9;
+  background: #F4F4F4;
 }
 
 a.project-btn {
@@ -161,7 +161,8 @@ a.project-btn {
 }
 
 .img-opacity:hover .overlay {
-	opacity: .9;
+	background: ;
+	opacity: .95;
 }
 
 
