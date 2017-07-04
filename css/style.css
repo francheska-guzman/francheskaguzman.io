@@ -80,7 +80,7 @@ a.project-btn {
 	text-decoration: none;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 18px;
+	font-size: 19px;
 	color: #1c8faf;
 }
 
@@ -140,8 +140,7 @@ a.style-link:hover {
 }
 
 .img-opacity:hover .overlay {
-	background: ;
-	opacity: .95;
+	opacity: .9;
 }
 
 .mark-icon {
@@ -151,7 +150,7 @@ a.style-link:hover {
 }
 
 .me {
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'Quicksand', sans-serif;
 	line-height: 1.5;
 	color: #595656;
@@ -167,16 +166,17 @@ a.style-link:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 370px;
-  height: 240px;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   transition: .5s ease;
   background: #F4F4F4;
+  padding: 5%;
 }
 
 .project-img {
-  width: 370px;
-  height: 240px;
+  width: 100%;
+  height: 100%;
 }
 
 .navbar-default {
@@ -192,7 +192,7 @@ a.style-link:hover {
 
 input[type=text], select, textarea {
     width: 100%;
-    padding: 5px; 
+    padding: 0px 5px; 
     border: 1px solid #CCCCCC;
     border-radius: 4px; 
     box-sizing: border-box;
@@ -210,12 +210,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #24bbe5;
-}
-
-.contact-form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
 }
 
 /* Keyframes */
