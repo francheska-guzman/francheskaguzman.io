@@ -65,7 +65,7 @@ p {
 
 #landing-page {
 	background: #F9F7F7;
-	height: 500px;
+	height: 450px;
 	padding: 190px 0 0 0;
 }
 
@@ -276,5 +276,8 @@ input[type=submit]:hover {
 @media screen and (min-width: 768px) {
 	.nav {
 		float: right;
+	}
+	#landing-page {
+		height: 500px;
 	}
 }
