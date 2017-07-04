@@ -40,7 +40,7 @@ h4 {
 }
 
 h6 {
-	padding: 0px;
+	padding: 0 20px;
 	font-size: 18px;
 	font-family: 'Quicksand', sans-serif;
 }
@@ -65,7 +65,7 @@ p {
 
 #landing-page {
 	background: #F9F7F7;
-	height: 600px;
+	height: 500px;
 	padding: 190px 0 0 0;
 }
 
@@ -85,6 +85,17 @@ a.project-btn {
 }
 
 a.project-btn:hover {
+	color: #24bbe5;
+}
+
+a.arrow-projects {
+	transition: .9s ease;
+	font-size: 100px;
+	text-decoration: none;
+	color: #1c8faf;
+}
+
+a.arrow-projects:hover {
 	color: #24bbe5;
 }
 
@@ -115,6 +126,15 @@ a.project-btn:hover {
 .francheska-picture {
 	width: 200px;
 	height: 210px;
+}
+
+.img-opacity {
+	position: relative;
+}
+
+.img-opacity:hover .overlay {
+	background: ;
+	opacity: .95;
 }
 
 .mark-icon {
@@ -156,13 +176,8 @@ a.project-btn:hover {
 	border: #f9f9f9;
 }
 
-.img-opacity {
-	position: relative;
-}
-
-.img-opacity:hover .overlay {
-	background: ;
-	opacity: .95;
+.tech-used {
+	padding: 5px 40px;
 }
 
 /* Contact */
