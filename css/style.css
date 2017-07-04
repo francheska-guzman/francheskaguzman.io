@@ -34,13 +34,14 @@ h3 {
 }
 
 h4 {
+	font-size: 22px;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 }
 
 h6 {
-	padding: 0;
-	font-size: 14px;
+	padding: 0px;
+	font-size: 18px;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -51,7 +52,7 @@ p {
 /* Id's */
 
 #about {
-	background: #FCFCFC;
+	background: #F9F9F9;
 	height: auto;
 	padding: 30px 0 60px 0;
 }
@@ -75,6 +76,18 @@ p {
 
 /* Classes */
 
+a.project-btn {
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	color: #1c8faf;
+}
+
+a.project-btn:hover {
+	color: #24bbe5;
+}
+
 .bone-white {
 	color: #C1BFBF;
 }
@@ -86,6 +99,11 @@ p {
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.center-text {
+	text-align: center;
+	width: 100%;
 }
 
 .contact-information {
@@ -122,38 +140,20 @@ p {
   left: 0;
   right: 0;
   width: 370px;
-  height: 235px;
+  height: 240px;
   opacity: 0;
   transition: .5s ease;
   background: #F4F4F4;
 }
 
-a.project-btn {
-	text-decoration: none;
-	text-align: center;
-}
-
 .project-img {
-	width: 370px;
-	height: 235px;
+  width: 370px;
+  height: 240px;
 }
 
 .navbar-default {
-	background: #EFEDED;
-	opacity: .9;
-}
-
-.resume-btn {
-	background: #1F5F87;
-	color: #FFFFFF;
-	border: none;
-	font-size: 15px;
-	padding: 5px;
-	width: 110px;
-}
-
-.resume-btn:hover {
-	background: #28B9ED;
+	background: #f4f4f4;
+	border: #f9f9f9;
 }
 
 .img-opacity {
@@ -165,6 +165,35 @@ a.project-btn {
 	opacity: .95;
 }
 
+/* Contact */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px; 
+    border: 1px solid #CCCCCC;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #1c8faf;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #24bbe5;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
 
 /* Keyframes */
 
