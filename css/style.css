@@ -233,7 +233,7 @@ input[type=submit]:hover {
 
 .blue-colorful {
 	animation-name: colorful;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
@@ -256,11 +256,17 @@ input[type=submit]:hover {
 }
 
 @keyframes colorful {
-    from {
+    25% {
     	color: #1c8faf;
     }
-    to {
+    50% {
     	color: #24bbe5;
+    }
+    75% {
+    	color: #09618e;
+    }
+    100% {
+    	color: #2b8bbc;
     }
 }
 
