@@ -1,3 +1,10 @@
 # Portfolio
 
-Check it out: [francheskaguzman.io](http://francheskaguzman.io)
+[francheskaguzman.io](http://francheskaguzman.io)
+
+## Technologies used
+
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
