@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext,vietnamese');
+
+body {
+	margin: 0 auto;
+}
+
+/* Fonts */
+
+h1 {
+	font-size: 48px;
+	margin: 0;
+	font-family: 'Quicksand';
+	font-weight: 300;
+	color: #242526;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 0;
+	font-family: 'Quicksand';
+	font-weight: 300;
+	color: #4C4C4C;
+}
+
+/* Flexbox */
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+/* Navigation */
+
+a {
+	text-decoration: none;
+	padding: 15px 10px;
+	font-family: 'Quicksand';
+	font-weight: 400;
+	font-size: 16px;
+	color: #0077AD;
+}
+
+a:hover {
+	color: #0AB2FF;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 15px 10px;
+}
+
+nav {
+	text-align: right;
+	position: fixed;
+	width: 100%;
+}
+
+ul {
+	margin: 0;
+}
+
+/* Home */
+
+#home {
+	text-align: center;
+	padding: 300px 0;
+}
+
+/* Projects */
+
+#projects {
+	padding: 100px 0;
+}
+

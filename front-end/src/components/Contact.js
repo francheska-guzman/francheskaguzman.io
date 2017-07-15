@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Contact extends Component {
   render() {
     return (
-      <div id="contact">This is Contact component.</div>
+      <div id='contact' className='flex-col'>This is Contact component.</div>
     );
   }
 }

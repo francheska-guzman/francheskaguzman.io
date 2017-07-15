@@ -10,18 +10,18 @@ import {
         } from 'react-router-dom';
 import './App.css';
 
-console.log("App.js is working.");
+console.log('App.js is working.');
 
 class App extends Component {
   render() {
     return (
         <Router>
 	      <div>
-	        <Route startsWith path="/" component={() => (<Navigation />) }/>
+	        <Route startsWith path='/' component={() => (<Navigation />) }/>
 	        <Switch>
-	          <Route path="/*" component={() => (<FourOFour />) }/>
+	          <Route path='/*' component={() => (<FourOFour />) }/>
 	        </Switch>
-	        <Route startsWith path="/" component={() => (<Footer />) }/>
+	        <Route startsWith path='/' component={() => (<Footer />) }/>
 	      </div>
         </Router>
     );
