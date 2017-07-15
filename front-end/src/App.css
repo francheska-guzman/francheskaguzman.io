@@ -22,6 +22,18 @@ h2 {
 	color: #4C4C4C;
 }
 
+h3 {
+	font-size: 24px;
+	font-family: 'Quicksand';
+	font-weight: 400;
+}
+
+/* General */
+
+.border {
+	margin: 0 20px;
+}
+
 /* Flexbox */
 
 .flex-col {
@@ -81,3 +93,21 @@ ul {
 	padding: 100px 0;
 }
 
+/* About */
+
+#about {
+	padding: 100px 0;
+}
+
+/* Contact */
+
+#contact {
+	padding: 100px 0;
+}
+
+/* Footer */
+
+footer {
+	padding: 20px 0;
+	text-align: center;
+}
