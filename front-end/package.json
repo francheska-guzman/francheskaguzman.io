@@ -1,12 +1,14 @@
 {
   "name": "front-end",
-  "homepage": "https://francheska-guzman.github.io/francheskaguzman.io/",
+  "homepage": "https://francheska-guzman.github.io/francheskaguzman.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-router-dom": "^4.1.1",
+    "react-scripts": "1.0.10",
+    "react-scrollable-anchor": "^0.4.2"
   },
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
