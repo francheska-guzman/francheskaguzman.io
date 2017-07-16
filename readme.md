@@ -12,4 +12,3 @@ A collection of some projects I have been worked.
 * CSS
 * JavaScript
 * React.js
-* Bootstrap
