@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Contact extends Component {
   render() {
     return (
-      <div id='contact' className='flex-col border'>
-      <h3>Contact</h3>
+      <div id='contact' className='flex-col'>
+        <h3>Contact</h3>
       </div>
     );
   }
