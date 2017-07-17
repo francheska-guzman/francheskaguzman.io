@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Project from './Project'
+import Project from './Project';
 
 class Projects extends Component {
   constructor(props){
@@ -28,17 +28,25 @@ class Projects extends Component {
     });
   }
 
+  slideshow() {
+    return(<img className="slide-size" src={this.state.slideshow[0]} />)
+  }
+
   render() {
     return (
       <div id='projects' className='flex-col'>
         <h3>Projects</h3>
-          <div className="flex-2"></div>
-          <div className="flex-1">
-      	  <h4>{this.state.title}</h4>
-          <h5>{this.state.url_live}</h5>
-          <h5>{this.state.url_code}</h5>
+        <h4>{this.state.title}</h4>
+        <div className='flex-row'>
+          <div className="flex-2">
+            {this.slideshow()}
           </div>
-          <Project project={this.project} />
+          <div className="flex-1">
+            <a className="live-code" href={this.state.url_live} target="_blank">LIVE</a>
+            <a className="live-code" href={this.state.url_code} target="_blank">CODE</a>
+          </div>
+        </div>
+        <Project project={this.project} />
       </div>
     );
   }

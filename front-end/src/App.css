@@ -28,6 +28,13 @@ h3 {
 	font-weight: 400;
 }
 
+h4 {
+	font-size: 30px;
+	font-family: 'Quicksand';
+	font-weight: 400;
+	text-align: center;
+}
+
 /* General */
 
 .border {
@@ -55,7 +62,7 @@ h3 {
 
 /* Navigation */
 
-a {
+a.nav {
 	text-decoration: none;
 	padding: 15px 10px;
 	font-family: 'Quicksand';
@@ -64,7 +71,7 @@ a {
 	color: #585859;
 }
 
-a:hover {
+a.nav:hover {
 	color: #3AA8FC;
 }
 
@@ -95,6 +102,17 @@ ul {
 
 #projects {
 	padding: 100px 0;
+}
+
+a.live-code {
+	text-decoration: none;
+}
+
+/* Slideshow */
+
+.slide-size {
+	width: 500px;
+	height: 300px;
 }
 
 /* About */
