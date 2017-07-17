@@ -11,9 +11,11 @@ class Projects extends Component {
       instructions: null,
       url_live: "https://francheska-guzman.github.io/credit-report/",
       url_code: "https://github.com/francheska-guzman/credit-report/",
-      slideshow: []
+      slideshow: ["./images/creditreport/1.png", "./images/creditreport/2.png", "./images/creditreport/3.png"]
     }
     this.project = this.project.bind(this);
+    this.slideshow = this.slideshow.bind(this);
+    this.alt = this.alt.bind(this);
   }
 
   project(title, description, technologies, instructions, url_live, url_code, slideshow) {
@@ -29,7 +31,12 @@ class Projects extends Component {
   }
 
   slideshow() {
-    return(<img className="slide-size" src={this.state.slideshow[0]} />)
+    return (<img className="slide-size" alt={this.alt()} src={this.state.slideshow[0]} />);
+  }
+
+  alt() {
+    var description = "An illustration of the " + this.state.title + " application."
+    return (description);
   }
 
   render() {

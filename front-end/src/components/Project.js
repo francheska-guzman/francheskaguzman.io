@@ -15,7 +15,7 @@ class Project extends Component {
       "Instructions",
       "https://francheska-guzman.github.io/credit-report/",
       "https://github.com/francheska-guzman/credit-report/",
-      [null, null]
+      ["./images/creditreport/1.png", "./images/creditreport/2.png", "./images/creditreport/3.png"]
     )
   }
 
@@ -33,9 +33,9 @@ class Project extends Component {
 
   render() {
     return (
-      <div>
-      <input type="button" value="Credit Report" onClick={this.creditreport} />
-      <input type="button" value="Connect Four" onClick={this.connectfour} />
+      <div className="flex-1 center">
+        <input type="button" value="Credit Report" onClick={this.creditreport} />
+        <input type="button" value="Connect Four" onClick={this.connectfour} />
       </div>
     );
   }

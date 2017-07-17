@@ -72,7 +72,7 @@ a.nav {
 }
 
 a.nav:hover {
-	color: #3AA8FC;
+	color: #0BD5E8;
 }
 
 li {
@@ -108,11 +108,17 @@ a.live-code {
 	text-decoration: none;
 }
 
+/* Project */
+
+.center {
+	text-align: center;
+}
+
 /* Slideshow */
 
 .slide-size {
-	width: 500px;
-	height: 300px;
+	width: 600px;
+	height: 350px;
 }
 
 /* About */
