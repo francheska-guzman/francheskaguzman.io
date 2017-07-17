@@ -60,10 +60,10 @@ class Project extends Component {
   render() {
     return (
       <div className="flex-1 center">
-        <input type="button" value="Credit Report" onClick={this.project1} />
-        <input type="button" value="Connect Four" onClick={this.project2} />
-        <input type="button" value="Stock Market" onClick={this.project3} />
-        <input type="button" value="Can I Eat This?" onClick={this.project4} />
+        <input className="select-project" type="button" value="Credit Report" onClick={this.project1} />
+        <input className="select-project" type="button" value="Connect Four" onClick={this.project2} />
+        <input className="select-project" type="button" value="Stock Market" onClick={this.project3} />
+        <input className="select-project" type="button" value="Can I Eat This?" onClick={this.project4} />
       </div>
     );
   }
