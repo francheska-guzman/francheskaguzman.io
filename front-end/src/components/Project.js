@@ -12,9 +12,9 @@ class Project extends Component {
   project1() {
     this.props.project(
       "Credit Report", 
-      null,
-      null,
-      null,
+      "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in my own API.",
+      [],
+      [],
       "https://francheska-guzman.github.io/credit-report/",
       "https://github.com/francheska-guzman/credit-report/",
       ["./images/project1/1.png", "./images/project1/2.png", "./images/project1/3.png"]
@@ -25,8 +25,8 @@ class Project extends Component {
   	this.props.project(
   		"Connect Four", 
       null,
-      null,
-      null,
+      [],
+      [],
       "https://francheska-guzman.github.io/connect-four/",
       "https://github.com/francheska-guzman/connect-four/",
   		["./images/project2/1.png", "./images/project2/2.png", "./images/project2/3.png"]
@@ -37,8 +37,8 @@ class Project extends Component {
     this.props.project(
       "Stock Market", 
       null,
-      null,
-      null,
+      [],
+      [],
       "https://francheska-guzman.github.io/stock-market/",
       "https://github.com/francheska-guzman/stock-market/",
       ["./images/project3/1.png", "./images/project3/2.png", "./images/project3/3.png"]
@@ -49,8 +49,8 @@ class Project extends Component {
     this.props.project(
       "Can I Eat This?", 
       null,
-      null,
-      null,
+      [],
+      [],
       "https://francheska-guzman.github.io/connect-four/",
       "https://github.com/francheska-guzman/connect-four/",
       ["./images/project4/1.png", "./images/project4/2.png", "./images/project4/3.png"]

@@ -6,9 +6,9 @@ class Projects extends Component {
     super(props);
     this.state = {
       title: "Credit Report",
-      description: null,
-      technologies: null,
-      instructions: null,
+      description: "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in my own API.",
+      technologies: [],
+      instructions: [],
       url_live: "https://francheska-guzman.github.io/credit-report/",
       url_code: "https://github.com/francheska-guzman/credit-report/",
       slideshow: ["./images/project1/1.png", "./images/project1/2.png", "./images/project1/3.png"]
@@ -49,6 +49,7 @@ class Projects extends Component {
             {this.slideshow()}
           </div>
           <div className="flex-1">
+            <p class="description">{this.state.description}</p>
             <a className="live-code" href={this.state.url_live} target="_blank">LIVE</a>
             <a className="live-code" href={this.state.url_code} target="_blank">CODE</a>
           </div>
