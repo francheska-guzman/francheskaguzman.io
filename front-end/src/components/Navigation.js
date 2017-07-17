@@ -6,10 +6,10 @@ class Navigation extends Component {
       <div className='flex-col'>
         <nav className='flex-1'>
           <ul>
-            <li><a className='nav' href='#home'>Home</a></li>
-            <li><a className='nav' href='#projects'>Projects</a></li>
-            <li><a className='nav' href='#about'>About</a></li>
-            <li><a className='nav' href='#contact'>Contact</a></li>
+            <li className='nav'><a className='nav' href='#home'>Home</a></li>
+            <li className='nav'><a className='nav' href='#projects'>Projects</a></li>
+            <li className='nav'><a className='nav' href='#about'>About</a></li>
+            <li className='nav'><a className='nav' href='#contact'>Contact</a></li>
           </ul>
         </nav>
       </div>
