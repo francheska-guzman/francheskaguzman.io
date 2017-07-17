@@ -11,7 +11,7 @@ class Projects extends Component {
       instructions: null,
       url_live: "https://francheska-guzman.github.io/credit-report/",
       url_code: "https://github.com/francheska-guzman/credit-report/",
-      slideshow: ["./images/creditreport/1.png", "./images/creditreport/2.png", "./images/creditreport/3.png"]
+      slideshow: ["./images/project1/1.png", "./images/project1/2.png", "./images/project1/3.png"]
     }
     this.project = this.project.bind(this);
     this.slideshow = this.slideshow.bind(this);
