@@ -1,7 +1,5 @@
 # Portfolio
 
-[francheskaguzman.io](http://francheskaguzman.io)
-
 ## Description
 
 A collection of some projects I have been worked.
