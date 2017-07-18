@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Project from './Project';
+import Slideshow from './Slideshow';
+import Data from './Data';
 
 class Projects extends Component {
   constructor(props){
@@ -8,16 +9,15 @@ class Projects extends Component {
       title: "Credit Report",
       description: "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in my own API.",
       instructions: [],
-      technologies: [],
+      technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL", <a href="https://creditreportapi.herokuapp.com/" target="_blank">Credit Report API</a>],
       url_live: "https://francheska-guzman.github.io/credit-report/",
       url_code: "https://github.com/francheska-guzman/credit-report/",
       slideshow: ["./images/project1/1.png", "./images/project1/2.png", "./images/project1/3.png"]
     }
     this.project = this.project.bind(this);
-    this.slideshow = this.slideshow.bind(this);
-    this.alt = this.alt.bind(this);
     this.instructions = this.instructions.bind(this);
     this.technologies = this.technologies.bind(this);
+    this.slideshow = this.slideshow.bind(this);
   }
 
   project(title, description, instructions, technologies, url_live, url_code, slideshow) {
@@ -30,15 +30,6 @@ class Projects extends Component {
       url_code: url_code,
       slideshow: slideshow
     });
-  }
-
-  slideshow() {
-    return (<img className="slide-size" alt={this.alt()} src={this.state.slideshow[0]} />);
-  }
-
-  alt() {
-    var description = "An illustration of the " + this.state.title + " application."
-    return (description);
   }
 
   instructions() {
@@ -55,6 +46,11 @@ class Projects extends Component {
     )
   }
 
+  slideshow() {
+    return ( <Slideshow image={this.state.slideshow} /> );
+  }
+
+
   render() {
     return (
       <div id='projects' className='flex-col'>
@@ -63,10 +59,10 @@ class Projects extends Component {
         <div className='flex-row'>
           <div className="flex-1 center">
             {this.slideshow()}
-            <a className="live-code" href={this.state.url_live} target="_blank">LIVE</a>
-            <a className="live-code" href={this.state.url_code} target="_blank">CODE</a>
+            <a className="live-code links" href={this.state.url_live} target="_blank">LIVE</a>
+            <a className="live-code links" href={this.state.url_code} target="_blank">CODE</a>
           </div>
-          <div className="flex-1">
+          <div id="project-information" className="flex-1">
             <h5>Description:</h5>
             <p>{this.state.description}</p>
             <div className='flex-row'>
@@ -81,7 +77,7 @@ class Projects extends Component {
             </div>
           </div>
         </div>
-        <Project project={this.project} />
+        <Data project={this.project} />
       </div>
     );
   }

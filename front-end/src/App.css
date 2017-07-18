@@ -75,17 +75,23 @@ p {
 
 /* Navigation */
 
-a.nav {
+a {
+	color: #129ACC;
+}
+
+a:hover {
+	color: #56D1FF;
+}
+
+a.links {
 	text-decoration: none;
-	padding: 15px 10px;
+}
+
+a.nav {
+	padding: 0px 10px;
 	font-family: 'Quicksand';
 	font-weight: 400;
 	font-size: 16px;
-	color: #585859;
-}
-
-a.nav:hover {
-	color: #0BD5E8;
 }
 
 li.nav {
@@ -100,6 +106,7 @@ li.project {
 }
 
 nav {
+	padding: 0 20px;
 	text-align: right;
 	position: fixed;
 	width: 100%;
@@ -119,14 +126,18 @@ ul {
 /* Projects */
 
 #projects {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 a.live-code {
 	text-decoration: none;
 }
 
-/* Project */
+#project-information {
+	padding: 0 0 0 20px;
+}
+
+/* Data */
 
 .center {
 	text-align: center;
@@ -142,18 +153,18 @@ a.live-code {
 /* About */
 
 #about {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 /* Contact */
 
 #contact {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 /* Footer */
 
 footer {
-	padding: 20px 0;
+	padding: 50px 0;
 	text-align: center;
 }

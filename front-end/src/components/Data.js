@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Project extends Component {
+class Data extends Component {
   constructor(props){
     super(props);
     this.project1 = this.project1.bind(this);
@@ -13,8 +13,8 @@ class Project extends Component {
       "Credit Report", 
       "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in my own API.",
       [],
-      ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL", <a href="https://creditreportapi.herokuapp.com/" target="_blank">Credit Report API</a>],
-      "https://francheska-guzman.github.io/credit-report/",
+      ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL", <a className="links" href="https://creditreportapi.herokuapp.com/" target="_blank">Credit Report API</a>],
+      "https://francheska-guzman.github.io/credit-report/", 
       "https://github.com/francheska-guzman/credit-report/",
       ["./images/project1/1.png", "./images/project1/2.png", "./images/project1/3.png"]
     )
@@ -23,7 +23,7 @@ class Project extends Component {
   project2() {
   	this.props.project(
   		"Connect Four", 
-      null,
+      "The classic board game Connect Four, is a two-player game board in which the players take turns dropping tokens from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form an horizontal, vertical, or diagonal line of four of one's own token.",
       [],
       ["HTML", "CSS", "JavaScript"],
       "https://francheska-guzman.github.io/connect-four/",
@@ -35,7 +35,7 @@ class Project extends Component {
   project3() {
     this.props.project(
       "Stock Market", 
-      null,
+      "The front-end of a Financial Technology Web Application focused on the Stock Market.",
       [],
       ["HTML", "CSS", "JavaScript"],
       "https://francheska-guzman.github.io/stock-market/",
@@ -55,4 +55,4 @@ class Project extends Component {
   }
 }
 
-export default Project;
+export default Data;
