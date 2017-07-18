@@ -18,12 +18,12 @@ class App extends Component {
     return (
       <Router>
 	      <div>
-          <Route startsWith path='/' component={() => (<Navigation />) }/>
+          <Route startsWith path='/francheskaguzman.io/' component={() => (<Navigation />) }/>
 	        <Switch>
-            <Route path='/' exact component={() => (<Portfolio />) }/>
-	          <Route path='/*' component={() => (<FourOFour />) }/>
+            <Route path='/francheskaguzman.io' exact component={() => (<Portfolio />) }/>
+	          <Route path='/francheskaguzman.io/*' component={() => (<FourOFour />) }/>
 	        </Switch>
-	        <Route startsWith path='/' component={() => (<Footer />) }/>
+	        <Route startsWith path='/francheskaguzman.io/' component={() => (<Footer />) }/>
 	      </div>
       </Router>
     );
