@@ -7,15 +7,14 @@ class Projects extends Component {
     super(props);
     this.state = {
       title: "Credit Report",
-      description: "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in my own API.",
-      instructions: [],
-      technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL", <a href="https://creditreportapi.herokuapp.com/" target="_blank">Credit Report API</a>],
+      description: "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in the Credit Report API.",
+      instructions: "Type '1' or '2' to get user information in the provided input field, which is located in the navigation bar. The application calculate the results in base of the user information. Try using both numbers so you can see that both users have different results.",
+      technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL", <a className="links" href="https://creditreportapi.herokuapp.com/" rel="noopener noreferrer" target="_blank">Credit Report API</a>],
       url_live: "https://francheska-guzman.github.io/credit-report/",
       url_code: "https://github.com/francheska-guzman/credit-report/",
       slideshow: ["./images/project1/1.png", "./images/project1/2.png", "./images/project1/3.png"]
     }
     this.project = this.project.bind(this);
-    this.instructions = this.instructions.bind(this);
     this.technologies = this.technologies.bind(this);
     this.slideshow = this.slideshow.bind(this);
   }
@@ -32,13 +31,6 @@ class Projects extends Component {
     });
   }
 
-  instructions() {
-    return (this.state.instructions.map(function(instruction, i){
-        return ( <li className="project" key={i + 1}>{instruction}</li> )
-      })
-    )
-  }
-
   technologies() {
     return (this.state.technologies.map(function(technology, t){
         return ( <li className="project" key={t + 1}>{technology}</li> )
@@ -47,7 +39,8 @@ class Projects extends Component {
   }
 
   slideshow() {
-    return ( <Slideshow image={this.state.slideshow} /> );
+    return ( <Slideshow title={this.state.title}
+                        image={this.state.slideshow} /> );
   }
 
 
@@ -62,15 +55,15 @@ class Projects extends Component {
             <a className="live-code links" href={this.state.url_live} target="_blank">LIVE</a>
             <a className="live-code links" href={this.state.url_code} target="_blank">CODE</a>
           </div>
-          <div id="project-information" className="flex-1">
+          <div className="flex-1 project-information">
             <h5>Description:</h5>
             <p>{this.state.description}</p>
             <div className='flex-row'>
-              <div className='flex-2'>
-              <h5>Instructions:</h5>
-              {this.instructions()}
-              </div>
               <div className='flex-1'>
+              <h5>Instructions:</h5>
+              <p>{this.state.instructions}</p>
+              </div>
+              <div className='flex-1 project-information'>
               <h5>Technologies used:</h5>
               {this.technologies()}
               </div>

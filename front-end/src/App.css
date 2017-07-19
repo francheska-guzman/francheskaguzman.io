@@ -133,8 +133,8 @@ a.live-code {
 	text-decoration: none;
 }
 
-#project-information {
-	padding: 0 0 0 20px;
+.project-information {
+	margin: 0 0 0 20px;
 }
 
 /* Data */
