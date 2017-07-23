@@ -7,19 +7,19 @@ body {
 /* Fonts */
 
 h1 {
-	font-size: 48px;
+	font-size: 50px;
 	margin: 0;
 	font-family: 'Quicksand';
 	font-weight: 300;
-	color: #242526;
+	color: #FFFFFF;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 22px;
 	margin: 0;
 	font-family: 'Quicksand';
 	font-weight: 300;
-	color: #4C4C4C;
+	color: #66727A;
 }
 
 h3 {
@@ -54,12 +54,6 @@ p {
 	margin: 0;
 }
 
-/* General */
-
-.border {
-	margin: 0 20px;
-}
-
 /* Flexbox */
 
 .flex-col {
@@ -82,11 +76,11 @@ p {
 /* Navigation */
 
 a {
-	color: #129ACC;
+	color: #66727A;
 }
 
 a:hover {
-	color: #56D1FF;
+	color: #93A4AF;
 }
 
 a.links {
@@ -97,7 +91,7 @@ a.nav {
 	padding: 0px 10px;
 	font-family: 'Quicksand';
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 li.nav {
@@ -126,13 +120,18 @@ ul {
 
 #home {
 	text-align: center;
-	padding: 300px 0;
+	padding: 270px 0;
+	background: #00253B; /* For browsers that do not support gradients */    
+    background: -webkit-radial-gradient(#03314C, #011B2D); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#03314C, #011B2D); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#03314C, #011B2D); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#03314C, #011B2D); /* Standard syntax (must be last) */
 }
 
 /* Projects */
 
 #projects {
-	padding: 50px 0;
+	padding: 50px 30px;
 }
 
 a.live-code {
@@ -159,18 +158,21 @@ a.live-code {
 /* About */
 
 #about {
-	padding: 50px 0;
+	padding: 50px 30px;
+	background: #F4F4F4;
 }
 
 /* Contact */
 
 #contact {
-	padding: 50px 0;
+	padding: 50px 30px;
 }
 
 /* Footer */
 
 footer {
-	padding: 50px 0;
+	padding: 30px 30px;
+	height: auto;
 	text-align: center;
+	background: #00253B;
 }
