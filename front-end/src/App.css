@@ -122,10 +122,10 @@ ul {
 	text-align: center;
 	padding: 270px 0;
 	background: #00253B; /* For browsers that do not support gradients */    
-    background: -webkit-radial-gradient(#03314C, #011B2D); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(#03314C, #011B2D); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(#03314C, #011B2D); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(#03314C, #011B2D); /* Standard syntax (must be last) */
+    background: -webkit-radial-gradient(#03314C, #02273D, #011B2D); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#03314C, #02273D, #011B2D); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#03314C, #02273D, #011B2D); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#03314C, #02273D, #011B2D); /* Standard syntax (must be last) */
 }
 
 /* Projects */
