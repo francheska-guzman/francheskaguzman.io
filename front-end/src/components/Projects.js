@@ -47,7 +47,8 @@ class Projects extends Component {
   render() {
     return (
       <div id='projects' className='flex-col'>
-        <h3>Projects</h3>
+        <h3>My Latest Work<br/>
+        <span className="sub-title">Take a look at some of my recent projects.</span></h3>
         <Data project={this.project} />
         <h4>{this.state.title}</h4>
         <div className="flex-row">

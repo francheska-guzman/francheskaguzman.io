@@ -46,10 +46,10 @@ class Data extends Component {
 
   render() {
     return (
-      <div className="flex-1 center">
-        <input className="select-project" type="button" value="Credit Report" onClick={this.project1} />
-        <input className="select-project" type="button" value="Connect Four" onClick={this.project2} />
-        <input className="select-project" type="button" value="Stock Market" onClick={this.project3} />
+      <div className="flex-1 flexrow center">
+        <input className="select-project flex-1" type="button" value="Credit Report" onClick={this.project1} />
+        <input className="select-project flex-1" type="button" value="Connect Four" onClick={this.project2} />
+        <input className="select-project flex-1" type="button" value="Stock Market" onClick={this.project3} />
       </div>
     );
   }
