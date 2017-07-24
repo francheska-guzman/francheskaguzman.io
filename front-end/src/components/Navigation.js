@@ -6,8 +6,8 @@ class Navigation extends Component {
       <nav>
         <ul>
           <li className='inline'><a className='nav' href='#home'>Home</a></li>
-          <li className='inline'><a className='nav' href='#projects'>Projects</a></li>
           <li className='inline'><a className='nav' href='#about'>About</a></li>
+          <li className='inline'><a className='nav' href='#projects'>Projects</a></li>
           <li className='inline'><a className='nav' href='#contact'>Contact</a></li>
         </ul>
       </nav>

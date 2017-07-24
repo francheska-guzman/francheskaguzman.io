@@ -50,28 +50,27 @@ class Projects extends Component {
         <h3>My Latest Work<br/>
         <span className="sub-title">Take a look at some of my recent projects.</span></h3>
         <Data project={this.project} />
-        <h4>{this.state.title}</h4>
-        <div className="flex-row">
-          <div className='flex-1 flex-col'>
-            <div className='flex-1'>
-              {this.slideshow()}
-            </div>
-            <div className="flexrow">
-              <a className="live-code flex-1" href={this.state.url_live} target="_blank">LIVE</a>
-              <a className="live-code flex-1" href={this.state.url_code} target="_blank">CODE</a>
-            </div>
-          </div>
-          <div className="flex-1 project-information">
-            <h5>Description:</h5>
-            <p>{this.state.description}</p>
-            <div className='flex-row'>
+        <div id="details">
+          <h4>{this.state.title}</h4>
+          <h5 className="link"><a href={this.state.url_live} target="_blank">Live</a> | <a href={this.state.url_code} target="_blank">Code</a></h5>
+          <div className="flex-row">
+            <div className='flex-1 flex-col'>
               <div className='flex-1'>
-              <h5>Instructions:</h5>
-              <p>{this.state.instructions}</p>
+                {this.slideshow()}
               </div>
-              <div className='flex-1 project-information'>
-              <h5>Technologies used:</h5>
-              {this.technologies()}
+            </div>
+            <div className="flex-1 project-information">
+              <h5>Description:</h5>
+              <p>{this.state.description}</p>
+              <div className='flex-row'>
+                <div className='flex-1'>
+                <h5>Instructions:</h5>
+                <p>{this.state.instructions}</p>
+                </div>
+                <div className='flex-1 project-information'>
+                <h5>Technologies used:</h5>
+                {this.technologies()}
+                </div>
               </div>
             </div>
           </div>

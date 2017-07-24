@@ -9,8 +9,8 @@ class Portfolio extends Component {
     return (
       <div id='portfolio' className='border'>
         <Home />
-        <Projects />
         <About />
+        <Projects />
         <Contact />
       </div>
     );

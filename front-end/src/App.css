@@ -5,6 +5,13 @@ body {
 	background: #F2F2F2;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 /* Fonts */
 
 h1 {
@@ -24,7 +31,7 @@ h2 {
 }
 
 h3 {
-	font-size: 28px;
+	font-size: 35px;
 	font-family: 'Quicksand';
 	font-weight: 500;
 	margin: 0 0 40px 0;
@@ -160,7 +167,7 @@ input[type="button"].select-project {
 	height: 100%;
 	background: none;
 	border: none;
-	margin: 40px;
+	padding: 5px 0;
 }
 
 /* Slideshow */
@@ -171,30 +178,44 @@ input[type="button"].select-project {
 	background: #FFFFFF;
 }
 
-.live-code {
-	padding: 7px;
-	background: #2B2929;
+.link {
+	padding: 5px;
 	text-align: center;
-	color: #B7B7B7;
+	color: #F9F9F9;
+	border: none;
 }
 
-.live-code:hover {
-	background: #332F2F;
+.link:hover {
 	color: #FFFFFF;
+}
+
+.p1 {
+	margin: 20px 10px 20px 0;
+	height: 180px;
+}
+
+.p2 {
+	margin: 20px 5px 20px 5px;
+	height: 180px;
+}
+
+.p3 {
+	margin: 20px 0 20px 10px;
+	height: 180px;
 }
 
 /* About */
 
 #about {
 	padding: 80px 30px;
-	background: #EDEAED;
+	background: #EFEFEF;
 }
 
 /* Contact */
 
 #contact {
 	padding: 80px 30px;
-	background: #EDEAED;
+	background: #EFEFEF;
 }
 
 /* Footer */
@@ -259,9 +280,16 @@ a.bone-white:hover {
 	padding: 80px 10px;
   }
 
-  .live-code {
+  .link {
 	padding: 5px;
   }
+
+
+  .p1, .p2, .p3 {
+	margin: 5px 0;
+	height: 80px;
+  }
+
 
   footer {
   	padding: 30px 10px;
