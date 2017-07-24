@@ -1,6 +1,6 @@
-# Portfolio Under Construction
+# Portfolio
 
-You can access my temporary portfolio here: [francheskaguzman.io](http://francheskaguzman.io)
+Portfolio is under construction.
 
 ## Description
 
