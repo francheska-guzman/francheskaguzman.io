@@ -56,6 +56,17 @@ p {
 	margin: 0;
 }
 
+.bone-white {
+	font-size: 14px;
+	color: #FFFFFF;
+	opacity: .7;
+}
+
+a.bone-white:hover {
+	color: #FFFFFF;
+	opacity: 1;
+}
+
 /* Flexbox */
 
 .flex-col {
@@ -170,7 +181,7 @@ a.live-code {
 /* Footer */
 
 footer {
-	padding: 15px 30px;
+	padding: 30px 30px;
 	height: auto;
 	text-align: center;
 	background: #00253B;
@@ -179,7 +190,7 @@ footer {
 .logo {
 	width: 40px;
 	height: 40px;
-	margin: 0 5px;
+	margin: 0 7px;
 	opacity: .7;
 }
 
