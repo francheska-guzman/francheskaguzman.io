@@ -5,10 +5,10 @@ class Navigation extends Component {
     return (
       <nav>
         <ul>
-          <li className='nav'><a className='nav links' href='#home'>Home</a></li>
-          <li className='nav'><a className='nav links' href='#projects'>Projects</a></li>
-          <li className='nav'><a className='nav links' href='#about'>About</a></li>
-          <li className='nav'><a className='nav links' href='#contact'>Contact</a></li>
+          <li className='inline'><a className='nav' href='#home'>Home</a></li>
+          <li className='inline'><a className='nav' href='#projects'>Projects</a></li>
+          <li className='inline'><a className='nav' href='#about'>About</a></li>
+          <li className='inline'><a className='nav' href='#contact'>Contact</a></li>
         </ul>
       </nav>
     );

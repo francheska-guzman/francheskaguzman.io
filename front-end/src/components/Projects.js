@@ -48,12 +48,13 @@ class Projects extends Component {
     return (
       <div id='projects' className='flex-col'>
         <h3>Projects</h3>
+        <Data project={this.project} />
         <h4>{this.state.title}</h4>
         <div className='flex-row'>
           <div className="flex-1 center">
             {this.slideshow()}
-            <a className="live-code links" href={this.state.url_live} target="_blank">LIVE</a>
-            <a className="live-code links" href={this.state.url_code} target="_blank">CODE</a>
+            <a className="live-code" href={this.state.url_live} target="_blank">LIVE</a>
+            <a className="live-code" href={this.state.url_code} target="_blank">CODE</a>
           </div>
           <div className="flex-1 project-information">
             <h5>Description:</h5>
@@ -70,7 +71,6 @@ class Projects extends Component {
             </div>
           </div>
         </div>
-        <Data project={this.project} />
       </div>
     );
   }
