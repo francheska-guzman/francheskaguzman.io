@@ -52,7 +52,8 @@ class Projects extends Component {
         <Data project={this.project} />
         <div id="details">
           <h4>{this.state.title}</h4>
-          <h5 className="link"><a href={this.state.url_live} target="_blank">Live</a> | <a href={this.state.url_code} target="_blank">Code</a></h5>
+          <h5 className="flex-1 link"><a className="link" href={this.state.url_live} target="_blank">Live</a> | <a className="link" href={this.state.url_code} target="_blank">Code</a></h5>
+          <br />
           <div className="flex-row">
             <div className='flex-1 flex-col'>
               <div className='flex-1'>

@@ -179,14 +179,15 @@ input[type="button"].select-project {
 }
 
 .link {
-	padding: 5px;
+	padding: 0 20px;
 	text-align: center;
-	color: #F9F9F9;
 	border: none;
+	font-family: 'Quicksand';
+	font-weight: 400;
 }
 
 .link:hover {
-	color: #FFFFFF;
+
 }
 
 .p1 {
