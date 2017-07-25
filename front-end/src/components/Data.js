@@ -14,10 +14,10 @@ class Data extends Component {
       "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in the Credit Report API.",
       "Type '1' or '2' to get user information in the provided input field, which is located in the navigation bar. The application calculate the results in base of the user information. Try using both numbers so you can see that both users have different results.",
       ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL", <a className="links" href="https://creditreportapi.herokuapp.com/" rel="noopener noreferrer" target="_blank">Credit Report API</a>],
-      "https://francheska-guzman.github.io/credit-report/", 
+      "https://francheska-guzman.github.io/credit-report/",
       "https://github.com/francheska-guzman/credit-report/",
       ["./images/project1/1.png", "./images/project1/2.png", "./images/project1/3.png"]
-    )
+    );
   }
 
   project2() {
@@ -29,7 +29,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/connect-four/",
       "https://github.com/francheska-guzman/connect-four/",
   		["./images/project2/1.png", "./images/project2/2.png", "./images/project2/3.png"]
-  	)
+  	);
   }
 
   project3() {
@@ -41,12 +41,12 @@ class Data extends Component {
       "https://francheska-guzman.github.io/stock-market/",
       "https://github.com/francheska-guzman/stock-market/",
       ["./images/project3/1.png", "./images/project3/2.png", "./images/project3/3.png"]
-    )
+    );
   }
 
   render() {
     return (
-      <div className="flex-row">
+      <div className="flexrow">
         <input className="link p1 flex-1" type="button" value="Credit Report" onClick={this.project1} />
         <input className="link p2 flex-1" type="button" value="Connect Four" onClick={this.project2} />
         <input className="link p3 flex-1" type="button" value="Stock Market" onClick={this.project3} />

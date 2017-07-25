@@ -7,7 +7,7 @@ import Projects from './Projects';
 class Portfolio extends Component {
   render() {
     return (
-      <div id='portfolio' className='border'>
+      <div>
         <Home />
         <About />
         <Projects />

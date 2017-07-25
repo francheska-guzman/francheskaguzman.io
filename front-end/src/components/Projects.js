@@ -50,14 +50,15 @@ class Projects extends Component {
           <h3>My Latest Work<br /><span className="sub-title">Take a look at some of my recent projects.</span></h3>
           <Data project={this.project} />
         </div>
+        {/* Project Title and URL's */}
         <div id="details">
           <h4>{this.state.title}</h4>
           <h5 className="flex-1 link">
-            <a className="link" href={this.state.url_live} target="_blank">Live</a> | 
+            <a className="link" href={this.state.url_live} target="_blank">Live</a>| 
             <a className="link" href={this.state.url_code} target="_blank">Code</a>
           </h5>
-          <br />
         </div>
+        {/* Project Information */}
         <div className="flex-row">
           <div className='flex-1'> {this.slideshow()} </div>
           <div className="flex-1 project-information">
