@@ -99,11 +99,11 @@ a.nav {
 	font-family: 'Quicksand';
 	font-weight: 400;
 	font-size: 15px;
-	color: #c4c4c4;
+	color: #B7B5B5;
 }
 
 a.nav:hover {
-	color: #FFFFFF;
+	color: #4B748C;
 }
 
 li.inline {
@@ -135,11 +135,7 @@ ul {
 	text-align: center;
 	width: 100%;
 	height: 650px;
-	background: #00253B; /* For browsers that do not support gradients */    
-    background: -webkit-radial-gradient(#03314C, #02273D, #011B2D); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(#03314C, #02273D, #011B2D); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(#03314C, #02273D, #011B2D); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(#03314C, #02273D, #011B2D); /* Standard syntax (must be last) */
+	background: #011B2D; /* For browsers that do not support gradients */    
 }
 
 .vertical-center {
