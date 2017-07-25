@@ -43,37 +43,30 @@ class Projects extends Component {
                         image={this.state.slideshow} /> );
   }
 
-
   render() {
     return (
-      <div id='projects' className='flex-col'>
-        <h3>My Latest Work<br/>
-        <span className="sub-title">Take a look at some of my recent projects.</span></h3>
-        <Data project={this.project} />
+      <div id='projects'>
+        <div>
+          <h3>My Latest Work<br /><span className="sub-title">Take a look at some of my recent projects.</span></h3>
+          <Data project={this.project} />
+        </div>
         <div id="details">
           <h4>{this.state.title}</h4>
-          <h5 className="flex-1 link"><a className="link" href={this.state.url_live} target="_blank">Live</a> | <a className="link" href={this.state.url_code} target="_blank">Code</a></h5>
+          <h5 className="flex-1 link">
+            <a className="link" href={this.state.url_live} target="_blank">Live</a> | 
+            <a className="link" href={this.state.url_code} target="_blank">Code</a>
+          </h5>
           <br />
-          <div className="flex-row">
-            <div className='flex-1 flex-col'>
-              <div className='flex-1'>
-                {this.slideshow()}
-              </div>
-            </div>
-            <div className="flex-1 project-information">
-              <h5>Description:</h5>
-              <p>{this.state.description}</p>
+        </div>
+        <div className="flex-row">
+          <div className='flex-1'> {this.slideshow()} </div>
+          <div className="flex-1 project-information">
+            <h5>Description:</h5>
+            <p>{this.state.description}</p>
               <div className='flex-row'>
-                <div className='flex-1'>
-                <h5>Instructions:</h5>
-                <p>{this.state.instructions}</p>
-                </div>
-                <div className='flex-1 project-information'>
-                <h5>Technologies used:</h5>
-                {this.technologies()}
-                </div>
+                <div className='flex-1'> <h5>Instructions:</h5><p>{this.state.instructions}</p> </div>
+                <div className='flex-1 project-information'> <h5>Technologies Used:</h5>{this.technologies()} </div>
               </div>
-            </div>
           </div>
         </div>
       </div>

@@ -46,7 +46,7 @@ class Data extends Component {
 
   render() {
     return (
-      <div className="flex-1 flex-row center">
+      <div className="flex-row">
         <input className="link p1 flex-1" type="button" value="Credit Report" onClick={this.project1} />
         <input className="link p2 flex-1" type="button" value="Connect Four" onClick={this.project2} />
         <input className="link p3 flex-1" type="button" value="Stock Market" onClick={this.project3} />
