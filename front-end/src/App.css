@@ -103,7 +103,7 @@ a.nav {
 }
 
 a.nav:hover {
-	color: #FFFFFF;
+	color: #adabab;
 }
 
 li.inline {
@@ -143,7 +143,17 @@ ul {
 }
 
 .vertical-center {
-	padding: 270px 0;
+	padding: 240px 0 0 0;
+}
+
+#anchor {
+	width: 50px;
+	height: 50px;
+	opacity: .5;
+}
+
+#anchor:hover {
+	opacity: 1;
 }
 
 /* Projects */
@@ -197,19 +207,25 @@ input[type="button"].select-project {
 
 }
 
+.p1, .p2, .p3 {
+	height: 180px;
+	opacity: .9;
+}
+
+.p1:hover, .p2:hover, .p3:hover {
+	opacity: 1;
+}
+
 .p1 {
 	margin: 20px 10px 20px 0;
-	height: 180px;
 }
 
 .p2 {
 	margin: 20px 5px 20px 5px;
-	height: 180px;
 }
 
 .p3 {
 	margin: 20px 0 20px 10px;
-	height: 180px;
 }
 
 /* About */
@@ -273,7 +289,7 @@ a.bone-white:hover {
   li.inline {
 	list-style: none;
 	display: inline-block;
-	padding: 10px;
+	padding: 5px;
   }
 
   h5 {
@@ -301,8 +317,18 @@ a.bone-white:hover {
 	padding: 5px;
   }
 
-  .p1, .p2, .p3 {
-	margin: 5px 0;
+  .p1 {
+	margin: 5px 1px 5px 0;
+	height: 100px;
+  }
+
+  .p2 {
+	margin: 5px 1px 5px 1px;
+	height: 100px;
+  }
+
+  .p3 {
+	margin: 5px 0 5px 1px;
 	height: 100px;
   }
 
