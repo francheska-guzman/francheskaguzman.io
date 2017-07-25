@@ -266,7 +266,10 @@ footer {
 
 .bone-white {
 	font-size: 14px;
-	color: #FFFFFF;
+	color: #EFEFEF;
+}
+
+a.bone-white {
 	opacity: .7;
 }
 
@@ -321,11 +324,11 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 18px;
-	height: 80px;
+	height: 70px;
   }
 
    input[type="button"].p3 {
-  	background-size: 100% 80px;
+  	background-size: 100% 70px;
   }
 
   .p1 {
