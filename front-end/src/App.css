@@ -99,7 +99,7 @@ a.nav {
 	font-family: 'Quicksand';
 	font-weight: 400;
 	font-size: 15px;
-	color: #B7B5B5;
+	color: #656A6B;
 }
 
 a.nav:hover {
@@ -282,6 +282,7 @@ a.bone-white:hover {
 /* Media Queries */
 
 @media (max-width: 1300px) {
+
   input[type="button"] {
   	font-size: 26px;
 	height: 180px;
@@ -290,9 +291,11 @@ a.bone-white:hover {
    input[type="button"].p3 {
   	background-size: 100% 180px;
   }
+  
 }
 
 @media (max-width: 1150px) {
+
   input[type="button"] {
   	font-size: 24px;
 	height: 160px;
@@ -301,20 +304,11 @@ a.bone-white:hover {
    input[type="button"].p3 {
   	background-size: 100% 160px;
   }
+
 }
 
 @media (max-width: 1000px) {
-  input[type="button"] {
-  	font-size: 22px;
-	height: 140px;
-  }
 
-   input[type="button"].p3 {
-  	background-size: 100% 140px;
-  }
-}
-
-@media (max-width: 850px) {
   a.nav {
 	padding: 0 5px;
   }
@@ -357,12 +351,12 @@ a.bone-white:hover {
   }
 
   input[type="button"] {
-  	font-size: 20px;
-	height: 120px;
+  	font-size: 22px;
+	height: 140px;
   }
 
-   input[type="button"].p3 {
-  	background-size: 100% 120px;
+  input[type="button"].p3 {
+  	background-size: 100% 140px;
   }
 
   .p1 {
@@ -380,6 +374,20 @@ a.bone-white:hover {
   footer {
   	padding: 30px 10px;
   }
+
+}
+
+@media (max-width: 850px) {
+
+  input[type="button"] {
+  	font-size: 20px;
+	height: 120px;
+  }
+
+   input[type="button"].p3 {
+  	background-size: 100% 120px;
+  }
+
 }
 
 @media (max-width: 700px) {
