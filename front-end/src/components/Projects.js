@@ -12,7 +12,7 @@ class Projects extends Component {
       technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL", <a className="links" href="https://creditreportapi.herokuapp.com/" rel="noopener noreferrer" target="_blank">Credit Report API</a>],
       url_live: "https://francheska-guzman.github.io/credit-report/",
       url_code: "https://github.com/francheska-guzman/credit-report/",
-      slideshow: ["./images/project1/1.png", "./images/project1/2.png", "./images/project1/3.png"]
+      slideshow: ["./images/credit-report/1.png", "./images/credit-report/2.png", "./images/credit-report/3.png"]
     }
     this.project = this.project.bind(this);
     this.technologies = this.technologies.bind(this);
