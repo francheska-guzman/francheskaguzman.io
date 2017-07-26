@@ -1,4 +1,4 @@
-![Portfolio under the sea...](./images/anchor.png)
+![Portfolio under the sea...](./front-end/public/images/logo/anchor.png)
 
 # Portfolio
 
