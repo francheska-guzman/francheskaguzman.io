@@ -49,10 +49,19 @@ class Data extends Component {
 
   render() {
     return (
-      <div className="flexrow">
-        <input className="p1 flex-1" type="button" onClick={this.project1} />
-        <input className="p2 flex-1" type="button" onClick={this.project2} />
-        <input className="p3 flex-1" type="button" onClick={this.project3} />
+      <div className="flexrow space-20">
+        <div className="flex-1">
+          <span className="p-title">Credit Report</span>
+          <input className="p1 flex-1" type="button" onClick={this.project1} />
+        </div>
+        <div className="flex-1">
+          <span className="p-title">Stock Market</span>
+          <input className="p2 flex-1" type="button" onClick={this.project2} />
+        </div>
+        <div className="flex-1">
+          <span className="p-title">Connect Four</span>
+          <input className="p3 flex-1" type="button" onClick={this.project3} />
+        </div>
       </div>
     );
   }
