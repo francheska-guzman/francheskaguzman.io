@@ -1,3 +1,5 @@
+![Portfolio under the sea...](./images/anchor.png)
+
 # Portfolio
 
 Portfolio is under construction.
@@ -11,4 +13,5 @@ A collection of some projects I have been worked.
 * HTML
 * CSS
 * JavaScript
+* JSX
 * React.js
