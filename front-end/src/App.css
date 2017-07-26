@@ -37,6 +37,7 @@ h3 {
 	font-family: 'Quicksand';
 	font-weight: 500;
 	margin: 0 0 40px 0;
+	transition: 1s;
 }
 
 h4 {
@@ -45,6 +46,7 @@ h4 {
 	font-family: 'Quicksand';
 	font-weight: 400;
 	text-align: center;
+	transition: 1s;
 }
 
 h5 {
@@ -52,12 +54,13 @@ h5 {
 	font-family: 'Quicksand';
 	font-weight: 500;
 	margin: 10px 0;
+	transition: 1s;
 }
 
 h6 {
 	font-size: 16px;
 	font-family: 'Quicksand';
-	font-weight: 300;
+	font-weight: 400;
 }
 
 p {
@@ -341,13 +344,18 @@ a.bone-white:hover {
   }
 
   h1 {
-  	font-size: 38px;
+  	font-size: 36px;
   	transition: 1s;
   }
 
   h2 {
   	font-size: 18px;
   	transition: 1s;
+  }
+
+  h3, h4 {
+	font-size: 30px;
+	transition: 1s;
   }
 
   h5 {
