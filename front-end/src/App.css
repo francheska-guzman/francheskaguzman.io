@@ -188,11 +188,11 @@ input[type="button"] {
 	background: none;
 	border: none;
 	padding: 5px 0px;
-	color: #000000;
+	color: #A50B0B;
 	font-size: 32px;
 	font-family: 'Quicksand';
 	font-weight: 400;
-	opacity: .8;
+	opacity: .9;
 	transition: 1s;
 }
 
