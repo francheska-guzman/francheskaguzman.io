@@ -192,7 +192,7 @@ ul {
 	width: 40px;
 	height: 40px;
 	margin: 0 7px;
-	opacity: .7;
+	opacity: .8;
 }
 
 .img-link:hover {
@@ -211,7 +211,7 @@ input[type="button"] {
 	font-size: 30px;
 	font-family: 'Quicksand';
 	font-weight: 300;
-	opacity: .8;
+	opacity: .9;
 	transition: 1s;
 }
 

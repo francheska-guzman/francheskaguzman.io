@@ -50,8 +50,8 @@ class Projects extends Component {
     return (
       <div className="right-and-center">
         <a href={this.state.url_live} target="_blank"><img alt="Live" className="img-link" src="./images/logo/live.png" /></a>
-        {this.api()}
         <a href={this.state.url_code} target="_blank"><img alt="Code" className="img-link" src="./images/logo/code.png" /></a>
+        {this.api()}
       </div>
     )
   }
