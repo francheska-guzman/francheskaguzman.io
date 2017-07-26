@@ -13,9 +13,10 @@ class Data extends Component {
       "Credit Report", 
       "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in the Credit Report API.",
       "Type '1' or '2' to get user information in the provided input field, which is located in the navigation bar. The application calculate the results in base of the user information. Try using both numbers so you can see that both users have different results.",
-      ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL", <a className="links" href="https://creditreportapi.herokuapp.com/" rel="noopener noreferrer" target="_blank">Credit Report API</a>],
+      ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL"],
       "https://francheska-guzman.github.io/credit-report/",
       "https://github.com/francheska-guzman/credit-report/",
+      "https://creditreportapi.herokuapp.com/",
       ["./images/credit-report/1.png", "./images/credit-report/2.png", "./images/credit-report/3.png"]
     );
   }
@@ -28,6 +29,7 @@ class Data extends Component {
       ["HTML", "CSS", "JavaScript"],
       "https://francheska-guzman.github.io/stock-market/",
       "https://github.com/francheska-guzman/stock-market/",
+      "",
       ["./images/stock-market/1.png", "./images/stock-market/2.png", "./images/stock-market/3.png"]
     );
   }
@@ -40,6 +42,7 @@ class Data extends Component {
       ["HTML", "CSS", "JavaScript"],
       "https://francheska-guzman.github.io/connect-four/",
       "https://github.com/francheska-guzman/connect-four/",
+      "",
   		["./images/connect-four/1.png", "./images/connect-four/2.png", "./images/connect-four/3.png"]
   	);
   }

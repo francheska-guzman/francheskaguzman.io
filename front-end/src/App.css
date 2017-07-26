@@ -41,7 +41,7 @@ h3 {
 }
 
 h4 {
-	padding: 0;
+	padding: 0 0 20px 0;
 	font-size: 35px;
 	font-family: 'Quicksand';
 	font-weight: 400;
@@ -95,8 +95,8 @@ p {
 
 /* Navigation */
 
-a, a:hover {
-	text-decoration: none;
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
 }
 
 a.nav {
@@ -180,6 +180,22 @@ ul {
 	font-weight: 400;
 }
 
+.link {
+	text-align: center;
+	font-family: 'Quicksand';
+	font-size: 18px;
+	font-weight: 300;
+	background: #EDEAEA;
+	text-decoration: none;
+	color: #4F4B4B;
+}
+
+.link:hover {
+	background: #F2EFEF;
+	color: #4F4B4B;
+	text-decoration: none;
+}
+
 /* Data */
 
 input[type="button"] {
@@ -188,15 +204,16 @@ input[type="button"] {
 	background: none;
 	border: none;
 	padding: 5px 0px;
-	color: #A50B0B;
-	font-size: 32px;
+	color: #605E5E;
+	font-size: 50px;
 	font-family: 'Quicksand';
-	font-weight: 400;
+	font-weight: 300;
 	opacity: .9;
 	transition: 1s;
 }
 
 input[type="button"]:hover {
+	color: #4c4a4a;
 	opacity: 1;
 	transition: 1s;
 }
@@ -233,15 +250,21 @@ input[type="button"].p3 {
 .slide-size {
 	width: 100%;
 	height: 100%;
-	background: #FFFFFF;
 }
 
-.link {
-	padding: 0 20px;
+.page {
+	padding: 10px;
 	text-align: center;
 	border: none;
 	font-family: 'Quicksand';
 	font-weight: 400;
+	background: none;
+	color: #0075BA;
+	font-size: 14px;
+}
+
+.page:hover {
+	color: #0075BA;
 }
 
 /* About */
@@ -300,7 +323,7 @@ a.bone-white:hover {
 @media (max-width: 1300px) {
 
   input[type="button"] {
-  	font-size: 26px;
+  	font-size: 45px;
 	height: 220px;
   }
 
@@ -318,7 +341,7 @@ a.bone-white:hover {
   }
 
   input[type="button"] {
-  	font-size: 24px;
+  	font-size: 40px;
 	height: 200px;
   }
 
@@ -404,7 +427,7 @@ a.bone-white:hover {
   }
 
   input[type="button"] {
-  	font-size: 22px;
+  	font-size: 35px;
 	height: 180px;
   }
 
@@ -417,7 +440,7 @@ a.bone-white:hover {
 @media (max-width: 850px) {
 
   input[type="button"] {
-  	font-size: 20px;
+  	font-size: 30px;
 	height: 160px;
   }
 
@@ -430,7 +453,7 @@ a.bone-white:hover {
 @media (max-width: 700px) {
 
   input[type="button"] {
-  	font-size: 18px;
+  	font-size: 25px;
 	height: 130px;
   }
 
@@ -470,12 +493,12 @@ a.bone-white:hover {
 @media (max-width: 550px) {
 
   input[type="button"] {
-  	font-size: 16px;
-	height: 90px;
+  	font-size: 20px;
+	height: 100px;
   }
 
   input[type="button"].p1, input[type="button"].p2, input[type="button"].p3 {
-  	background-size: 100% 90px;
+  	background-size: 100% 100px;
   }
 
 }
@@ -487,7 +510,7 @@ a.bone-white:hover {
   }
 
   input[type="button"] {
-  	font-size: 14px;
+  	font-size: 15px;
 	height: 70px;
   }
 
