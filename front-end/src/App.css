@@ -211,6 +211,11 @@ input[type="button"].p2 {
 	background-size: 100% 240px;
 }
 
+input[type="button"].p3 {
+	background: url("images/blurred/3.jpg");
+	background-size: 100% 240px;
+}
+
 .p1 {
 	margin: 20px 10px 20px 0;
 }
