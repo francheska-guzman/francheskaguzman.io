@@ -188,30 +188,27 @@ input[type="button"] {
 	background: none;
 	border: none;
 	padding: 5px 0px;
-	color: #000000;
+	color: #1E69BF;
 	font-size: 32px;
 	font-family: 'Quicksand';
 	font-weight: 400;
+	opacity: .8;
+	transition: 1s;
+}
+
+input[type="button"]:hover {
+	opacity: 1;
+	transition: 1s;
 }
 
 input[type="button"].p1 {
-	background: url("images/1.jpg");
+	background: url("images/blurred/1.jpg");
 	background-size: 100% 240px;
 }
 
 input[type="button"].p2 {
-	background: url("images/2.jpg");
+	background: url("images/blurred/2.jpg");
 	background-size: 100% 240px;
-}
-
-.p1, .p2, .p3 {
-	opacity: .9;
-	transition: 1s;
-}
-
-.p1:hover, .p2:hover, .p3:hover {
-	opacity: 1;
-	transition: 1s;
 }
 
 .p1 {
