@@ -273,7 +273,6 @@ footer {
 .bone-white {
 	font-size: 14px;
 	color: #EFEFEF;
-	transition: 1s;
 }
 
 a.bone-white {
@@ -439,11 +438,6 @@ a.bone-white:hover {
 
   .p3 {
 	margin: 5px 0 5px 1px;
-  }
-
-  .bone-white {
-  	font-size: 12px;
-  	transition: 1s;
   }
 
 }
