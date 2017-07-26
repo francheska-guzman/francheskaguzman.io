@@ -141,7 +141,7 @@ ul {
 	width: 100%;
 	height: 650px;
 	transition: 1s;
-	background: #011B2D; /* For browsers that do not support gradients */    
+	background: #011B2D;   
 }
 
 .vertical-center {
@@ -184,35 +184,24 @@ ul {
 
 input[type="button"] {
 	width: 100%;
-	height: 200px;
-	background: #770219;
+	height: 240px;
+	background: none;
 	border: none;
 	padding: 5px 0px;
-	color: #FFFFFF;
-	font-size: 30px;
-	font-family: 'Quicksand';
-	font-weight: 300;
-}
-
-input[type="button"].p3 {
-	background: url("images/projects/3.jpg");
-	background-size: 100% 220px;
-}
-
-/* Slideshow */
-
-.slide-size {
-	width: 100%;
-	height: 100%;
-	background: #FFFFFF;
-}
-
-.link {
-	padding: 0 20px;
-	text-align: center;
-	border: none;
+	color: #000000;
+	font-size: 32px;
 	font-family: 'Quicksand';
 	font-weight: 400;
+}
+
+input[type="button"].p1 {
+	background: url("images/1.jpg");
+	background-size: 100% 240px;
+}
+
+input[type="button"].p2 {
+	background: url("images/2.jpg");
+	background-size: 100% 240px;
 }
 
 .p1, .p2, .p3 {
@@ -235,6 +224,22 @@ input[type="button"].p3 {
 
 .p3 {
 	margin: 20px 0 20px 10px;
+}
+
+/* Slideshow */
+
+.slide-size {
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+}
+
+.link {
+	padding: 0 20px;
+	text-align: center;
+	border: none;
+	font-family: 'Quicksand';
+	font-weight: 400;
 }
 
 /* About */
@@ -294,11 +299,11 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 26px;
-	height: 180px;
+	height: 220px;
   }
 
-  input[type="button"].p3 {
-  	background-size: 100% 180px;
+  input[type="button"].p1, input[type="button"].p2, input[type="button"].p3 {
+  	background-size: 100% 220px;
   }
 
 }
@@ -312,11 +317,11 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 24px;
-	height: 160px;
+	height: 200px;
   }
 
-  input[type="button"].p3 {
-  	background-size: 100% 160px;
+  input[type="button"].p1, input[type="button"].p2, input[type="button"].p3 {
+  	background-size: 100% 200px;
   }
 
   footer {
@@ -398,11 +403,11 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 22px;
-	height: 140px;
+	height: 180px;
   }
 
-  input[type="button"].p3 {
-  	background-size: 100% 140px;
+  input[type="button"].p1, input[type="button"].p2, input[type="button"].p3 {
+  	background-size: 100% 180px;
   }
 
 }
@@ -411,11 +416,11 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 20px;
-	height: 120px;
+	height: 160px;
   }
 
-  input[type="button"].p3 {
-  	background-size: 100% 120px;
+  input[type="button"].p1, input[type="button"].p2, input[type="button"].p3 {
+  	background-size: 100% 160px;
   }
 
 }
@@ -424,11 +429,11 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 18px;
-	height: 100px;
+	height: 130px;
   }
 
-  input[type="button"].p3 {
-  	background-size: 100% 100px;
+  input[type="button"].p1, input[type="button"].p2, input[type="button"].p3 {
+  	background-size: 100% 130px;
   }
 
   h1 {
@@ -464,11 +469,28 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 16px;
-	height: 80px;
+	height: 90px;
   }
 
-  input[type="button"].p3 {
-  	background-size: 100% 80px;
+  input[type="button"].p1, input[type="button"].p2, input[type="button"].p3 {
+  	background-size: 100% 90px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  li.inline {
+	padding: 0px;
+  }
+
+  input[type="button"] {
+  	font-size: 14px;
+	height: 70px;
+  }
+
+  input[type="button"].p1, input[type="button"].p2, input[type="button"].p3 {
+  	background-size: 100% 70px;
   }
 
 }
