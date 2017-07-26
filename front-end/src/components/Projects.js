@@ -48,17 +48,17 @@ class Projects extends Component {
 
   buttons() {
     return (
-      <div className="flexrow">
-        <a className="flex-1 link" href={this.state.url_live} target="_blank">LIVE</a>
-        <a className="flex-1 link" href={this.state.url_code} target="_blank">CODE</a>
+      <div className="right-and-center">
+        <a href={this.state.url_live} target="_blank"><img alt="Live" className="img-link" src="./images/logo/live.png" /></a>
         {this.api()}
+        <a href={this.state.url_code} target="_blank"><img alt="Code" className="img-link" src="./images/logo/code.png" /></a>
       </div>
     )
   }
 
   api() {
     if(this.state.url_api !== "") {
-      return ( <a className="flex-1 link" href={this.state.url_api} target="_blank">API</a> );
+      return ( <a href={this.state.url_api} target="_blank"><img alt="API"  className="img-link"  src="./images/logo/api.png" /></a> );
     }
   }
 
@@ -71,17 +71,17 @@ class Projects extends Component {
         </div>
         {/* Project Title and URL's */}
         <div id="details">
-          <h4>{this.state.title}</h4> 
+          <h4>{this.state.title}</h4>
+          {this.buttons()}  
         </div>
         {/* Project Information */}
-        <div className="flex-row">
+        <div className="flex-row proj-info">
           <div className='flex-1'> {this.slideshow()} </div>
           <div className="flex-1 project-information">
-          {this.buttons()}
             <h5>Description</h5>
             <p>{this.state.description}</p>
               <div className='flex-row'>
-                <div className='flex-1'> <h5>Instructions</h5><p>{this.state.instructions}</p> </div>
+                <div className='flex-1'> <h5> Instructions </h5><p>{this.state.instructions}</p> </div>
                 <div className='flex-1 project-information'> <h5>Technologies Used</h5>{this.technologies()} </div>
               </div>
           </div>

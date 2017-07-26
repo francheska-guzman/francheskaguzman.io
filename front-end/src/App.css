@@ -96,7 +96,7 @@ p {
 /* Navigation */
 
 a, a:hover, a:active, a:visited, a:focus {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a.nav {
@@ -171,7 +171,11 @@ ul {
 }
 
 .project-information {
-	margin: 0 0 0 20px;
+	padding: 0 0 0 28px;
+}
+
+.proj-info {
+	background: none;
 }
 
 .sub-title {
@@ -180,20 +184,19 @@ ul {
 	font-weight: 400;
 }
 
-.link {
-	text-align: center;
-	font-family: 'Quicksand';
-	font-size: 18px;
-	font-weight: 300;
-	background: #EDEAEA;
-	text-decoration: none;
-	color: #4F4B4B;
+.right-and-center {
+	text-align: right;
 }
 
-.link:hover {
-	background: #F2EFEF;
-	color: #4F4B4B;
-	text-decoration: none;
+.img-link {
+	width: 40px;
+	height: 40px;
+	margin: 0 7px;
+	opacity: .7;
+}
+
+.img-link:hover {
+	opacity: 1;
 }
 
 /* Data */
@@ -204,16 +207,16 @@ input[type="button"] {
 	background: none;
 	border: none;
 	padding: 5px 0px;
-	color: #605E5E;
-	font-size: 50px;
+	color: #4C4A4A;
+	font-size: 30px;
 	font-family: 'Quicksand';
 	font-weight: 300;
-	opacity: .9;
+	opacity: .8;
 	transition: 1s;
 }
 
 input[type="button"]:hover {
-	color: #4c4a4a;
+	color: #605E5E;
 	opacity: 1;
 	transition: 1s;
 }
@@ -316,14 +319,12 @@ a.bone-white:hover {
 	color: #FFFFFF;
 }
 
-
-
 /* Media Queries */
 
 @media (max-width: 1300px) {
 
   input[type="button"] {
-  	font-size: 45px;
+  	font-size: 28px;
 	height: 220px;
   }
 
@@ -341,7 +342,7 @@ a.bone-white:hover {
   }
 
   input[type="button"] {
-  	font-size: 40px;
+  	font-size: 26px;
 	height: 200px;
   }
 
@@ -407,11 +408,7 @@ a.bone-white:hover {
   }
 
   .project-information {
-	margin: 0;
-  }
-
-  .link {
-	padding: 5px;
+	padding: 0;
   }
 
   .p1 {
@@ -427,7 +424,7 @@ a.bone-white:hover {
   }
 
   input[type="button"] {
-  	font-size: 35px;
+  	font-size: 24px;
 	height: 180px;
   }
 
@@ -435,12 +432,20 @@ a.bone-white:hover {
   	background-size: 100% 180px;
   }
 
+  .link {
+  	margin: 20px 0 0 0;
+  }
+
+  .right-and-center {
+	text-align: center;
+  }
+
 }
 
 @media (max-width: 850px) {
 
   input[type="button"] {
-  	font-size: 30px;
+  	font-size: 22px;
 	height: 160px;
   }
 
@@ -453,7 +458,7 @@ a.bone-white:hover {
 @media (max-width: 700px) {
 
   input[type="button"] {
-  	font-size: 25px;
+  	font-size: 20px;
 	height: 130px;
   }
 
@@ -493,7 +498,7 @@ a.bone-white:hover {
 @media (max-width: 550px) {
 
   input[type="button"] {
-  	font-size: 20px;
+  	font-size: 18px;
 	height: 100px;
   }
 
@@ -510,7 +515,7 @@ a.bone-white:hover {
   }
 
   input[type="button"] {
-  	font-size: 15px;
+  	font-size: 16px;
 	height: 70px;
   }
 
