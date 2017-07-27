@@ -16,9 +16,15 @@ class Projects extends Component {
       slideshow: ["./images/credit-report/1.png", "./images/credit-report/2.png", "./images/credit-report/3.png"]
     }
     this.project = this.project.bind(this);
+    this.titleDescription = this.titleDescription.bind(this);
+    this.titleInstructions = this.titleInstructions.bind(this);
+    this.titleTechnologiesUsed = this.titleTechnologiesUsed.bind(this);
     this.technologies = this.technologies.bind(this);
-    this.slideshow = this.slideshow.bind(this);
+    this.live = this.live.bind(this);
+    this.code = this.code.bind(this);
+    this.api = this.api.bind(this);
     this.buttons = this.buttons.bind(this);
+    this.slideshow = this.slideshow.bind(this);
   }
 
   project(title, description, instructions, technologies, url_live, url_code, url_api, slideshow) {
@@ -34,26 +40,34 @@ class Projects extends Component {
     });
   }
 
+  titleDescription() {
+    if(this.state.description !== "") { return( <h5>Description</h5> ) }
+  }
+
+  titleInstructions() {
+    if(this.state.instructions !== "") { return( <h5>Instructions</h5> ) }
+  }
+
+  titleTechnologiesUsed() {
+    if(this.state.technologies[0] !== null) { return( <h5>Technologies Used</h5> ) }
+  }
+
   technologies() {
-    return (this.state.technologies.map(function(technology, t){
-        return ( <li className="project" key={t + 1}>{technology}</li> )
-      })
+    return (this.state.technologies.map(function(technology, t) { 
+      return ( <li className="project" key={t + 1}>{technology}</li> ) })
     )
   }
 
-  slideshow() {
-    return ( <Slideshow title={this.state.title}
-                        image={this.state.slideshow} /> );
+  live() {
+    if(this.state.url_live !== "") {
+      return ( <a href={this.state.url_live} target="_blank"><img alt="Live" className="img-link" src="./images/logo/live.png" /></a> );
+    }
   }
 
-  buttons() {
-    return (
-      <div className="right-and-center">
-        <a href={this.state.url_live} target="_blank"><img alt="Live" className="img-link" src="./images/logo/live.png" /></a>
-        <a href={this.state.url_code} target="_blank"><img alt="Code" className="img-link" src="./images/logo/code.png" /></a>
-        {this.api()}
-      </div>
-    )
+  code() {
+    if(this.state.url_code !== "") {
+      return ( <a href={this.state.url_code} target="_blank"><img alt="Code" className="img-link" src="./images/logo/code.png" /></a> );
+    }
   }
 
   api() {
@@ -62,31 +76,53 @@ class Projects extends Component {
     }
   }
 
+  buttons() {
+    return ( <div className="right-and-center"> {this.live()} {this.code()} {this.api()} </div> );
+  }
+
+  slideshow() {
+    if(this.state.slideshow[0] === null) {
+      console.log("This project does not have images.");
+    }
+    else {
+      return ( <Slideshow title={this.state.title}
+                          image={this.state.slideshow} /> );
+    }
+  }
+
   render() {
     return (
       <div id='projects'>
         <div>
-          <h3>My Latest Work<br /><span className="sub-title">Take a look at some of my most precious treasures.</span></h3>
+          <h3> My Latest Work <br /> 
+          <span className="sub-title">Take a look at some of my most precious treasures.</span> </h3>
           <Data project={this.project} state={this.state} />
         </div>
-        {/* Project Title and URL's */}
+
+        {/* Title, Buttons */}
         <div id="details">
           <h4>{this.state.title}</h4>
           {this.buttons()}  
         </div>
-        {/* Project Information */}
-        <div className="flex-row proj-info">
+
+        {/* Description, Instructions, Technologies Used */}
+        <div className="flex-row">
           <div className='flex-1'> {this.slideshow()} </div>
           <div className="flex-1 project-information">
-            <h5>Description</h5>
+            {this.titleDescription()}
             <p>{this.state.description}</p>
-              <div className='flex-row'>
-                <div className='flex-1'> <h5> Instructions </h5><p>{this.state.instructions}</p> </div>
-                <div className='flex-1 project-information'> <h5>Technologies Used</h5>{this.technologies()} </div>
+            <div className='flex-row'>
+              <div className='flex-1'> 
+                {this.titleInstructions()}
+                <p>{this.state.instructions}</p> 
               </div>
+              <div className='flex-1 project-information'> 
+                {this.titleTechnologiesUsed()} 
+                {this.technologies()} 
+              </div>
+            </div>
           </div>
         </div>
-        <br/>
       </div>
     );
   }

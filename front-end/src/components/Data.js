@@ -50,7 +50,7 @@ class Data extends Component {
 
   project4(){
     this.props.project(
-      "My Fourth Treasure Soon!", 
+      "Project 4", 
       "",
       "",
       [null],

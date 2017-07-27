@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import FourOFour from './components/Four_O_Four';
 import Footer from './components/Footer';
-import Home from './components/Home';
 import Navigation from './components/Navigation';
 import Portfolio from './components/Portfolio';
 import {
