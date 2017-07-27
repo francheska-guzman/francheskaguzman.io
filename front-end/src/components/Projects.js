@@ -67,7 +67,7 @@ class Projects extends Component {
       <div id='projects'>
         <div>
           <h3>My Latest Work<br /><span className="sub-title">Take a look at some of my most precious treasures.</span></h3>
-          <Data project={this.project} />
+          <Data project={this.project} state={this.state} />
         </div>
         {/* Project Title and URL's */}
         <div id="details">
