@@ -50,7 +50,7 @@ class Data extends Component {
 
   project4(){
     this.props.project(
-      "Project 4", 
+      "Movie Finder", 
       "",
       "",
       [null],
@@ -74,7 +74,7 @@ class Data extends Component {
             <input className="p3 flex-1" type="button" onClick={this.project3} />
           </div>
           <div className="space-3 flex-1">
-            <span className="p-title flex-1">Project 4</span>
+            <span className="p-title flex-1">Movie Finder</span>
             <input className="p4 flex-1" type="button" onClick={this.project4} />
           </div>
         </div>
@@ -89,7 +89,7 @@ class Data extends Component {
             <input className="p3 flex-1" type="button" onClick={this.project3} />
           </div>
           <div className="space-2 flex-1">
-            <span className="p-title flex-1">Project 4</span>
+            <span className="p-title flex-1">Movie Finder</span>
             <input className="p4 flex-1" type="button" onClick={this.project4} />
           </div>
           <div className="space-3 flex-1">
@@ -104,7 +104,7 @@ class Data extends Component {
       return (
         <div className="flexrow space-20">
           <div className="space-1 flex-1">
-            <span className="p-title flex-1">Project 4</span>
+            <span className="p-title flex-1">Movie Finder</span>
             <input className="p4 flex-1" type="button" onClick={this.project4} />
           </div>
           <div className="space-2 flex-1">
