@@ -466,6 +466,12 @@ a.bone-white:hover {
 	text-align: center;
   }
 
+  .slide-size {
+  	margin: 0 15% 0 15%;
+  	width: 70%;
+  	transition: 1s;
+  }
+
 }
 
 @media (max-width: 850px) {
@@ -565,6 +571,12 @@ a.bone-white:hover {
   input[type="button"].p3, 
   input[type="button"].p4  {
   	background-size: 100% 75px;
+  }
+
+  .slide-size {
+  	margin: 0;
+  	width: 100%;
+  	transition: 1s;
   }
 
 }
