@@ -14,7 +14,7 @@ class Data extends Component {
       "Credit Report", 
       "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in the Credit Report API.",
       "Type '1' or '2' to get user information in the provided input field, which is located in the navigation bar. The application calculate the results in base of the user information. Try using both numbers so you can see that both users have different results.",
-      ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL"],
+      ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express", "PostgreSQL"],
       "https://francheska-guzman.github.io/credit-report/",
       "https://github.com/francheska-guzman/credit-report/",
       "https://creditreportapi.herokuapp.com/",
