@@ -174,12 +174,6 @@ ul {
 	padding: 0 0 0 28px;
 }
 
-.sub-title {
-	font-size: 16px;
-	color: #6D6B6B;
-	font-weight: 400;
-}
-
 .right-and-center {
 	text-align: right;
 }
@@ -296,10 +290,11 @@ input[type="button"].p4 {
 }
 
 
-.about-me {
+.paragraph {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 2;
+	color: #6D6B6B;
 }
 
 /* Contact */

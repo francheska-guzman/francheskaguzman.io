@@ -94,8 +94,8 @@ class Projects extends Component {
     return (
       <div id='projects'>
         <div>
-          <h3> My Latest Work <br /> 
-          <span className="sub-title">Take a look at some of my most precious treasures. Keep in mind that my node.js applications are hosted in Heroku, and may takes time to be rendered.</span> </h3>
+          <h3> My Latest Work </h3>
+          <p className="paragraph">Take a look at some of my most precious treasures. Keep in mind that my node.js applications are hosted in Heroku, and may takes time to be rendered.</p>
           <Data project={this.project} state={this.state} />
         </div>
 
