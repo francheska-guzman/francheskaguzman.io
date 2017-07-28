@@ -1,8 +1,8 @@
-![Portfolio under the sea...](./front-end/public/images/logo/anchor.png)
+![Portfolio under the sea...](./front-end/public/images/logo/anchor-black.png)
 
 # Portfolio
 
-Portfolio is under construction.
+My portfolio is under construction.
 
 ## Description
 
