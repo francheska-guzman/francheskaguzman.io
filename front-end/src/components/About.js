@@ -10,7 +10,7 @@ class About extends Component {
         </p>
         <br />
         <p className="paragraph">
-        Currently looking for opportunities as a junior front-end or back-end web developer in New York or remotely!
+        Currently open for opportunities as a junior front-end or back-end web developer, in New York or remotely. Let's do people loves to navigate the web applications even more!
         </p>
       </div>
     );
