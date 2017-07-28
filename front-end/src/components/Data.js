@@ -57,7 +57,7 @@ class Data extends Component {
       "https://findermovie.herokuapp.com/",
       "https://github.com/francheska-guzman/movie-finder",
       "",
-      [null]
+      ["./images/movie-finder/1.png", "./images/movie-finder/2.png"]
     );
   }
 
