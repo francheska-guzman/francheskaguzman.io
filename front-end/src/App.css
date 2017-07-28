@@ -207,25 +207,25 @@ input[type="button"]:hover {
 }
 
 input[type="button"].p1 {
-	background: url("images/blurred/1.jpg");
+	background: url("images/projects/1.jpg");
 	background-size: 100% 250px;
 	transition: 1s;
 }
 
 input[type="button"].p2 {
-	background: url("images/blurred/2.jpg");
+	background: url("images/projects/2.jpg");
 	background-size: 100% 250px;
 	transition: 1s;
 }
 
 input[type="button"].p3 {
-	background: url("images/blurred/3.jpg");
+	background: url("images/projects/3.jpg");
 	background-size: 100% 250px;
 	transition: 1s;
 }
 
 input[type="button"].p4 {
-	background: url("images/blurred/4.jpg");
+	background: url("images/projects/4.jpg");
 	background-size: 100% 250px;
 	transition: 1s;
 }
