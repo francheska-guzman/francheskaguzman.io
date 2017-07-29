@@ -6,17 +6,14 @@
 
 1. [Description](#description)
 2. [Technologies used](#technologies)
-3. [How to see](#portfolio)
+3. [Cross-browser compatibility](#compatibility)
+4. [How to see](#portfolio)
 
-<a id="description"></a>
-
-## Description
+## <a id="description">Description</a>
 
 A collection of some projects I have been worked, an about me section, and contact information.
 
-<a id="technologies"></a>
-
-## Technologies used
+## <a id="technologies">Technologies used</a>
 
 * HTML
 * CSS
@@ -24,8 +21,16 @@ A collection of some projects I have been worked, an about me section, and conta
 * JSX
 * React.js
 
-<a id="portfolio"></a>
+## <a id="compatibility">Cross-browser compatibility</a>
 
-## How to see
+This site has been tested in the following browsers:
+
+Chrome – Version 59.0.3071.115 
+
+Firefox – Version 54.0.1
+
+Safari – Version 9.1.2
+
+## <a id="portfolio">How to see</a>
 
 [http://francheskaguzman.io](http://francheskaguzman.io)
