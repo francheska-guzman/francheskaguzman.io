@@ -7,7 +7,7 @@
 1. [Description](#description)
 2. [Technologies used](#technologies)
 3. [Cross-browser compatibility](#compatibility)
-4. [How to see](#portfolio)
+4. [How to see](#site)
 
 ## <a id="description">Description</a>
 
@@ -31,6 +31,6 @@ Firefox – Version 54.0.1
 
 Safari – Version 9.1.2
 
-## <a id="portfolio">How to see</a>
+## <a id="site">How to see</a>
 
 [http://francheskaguzman.io](http://francheskaguzman.io)
