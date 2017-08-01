@@ -31,6 +31,8 @@ Firefox – Version 54.0.1
 
 Safari – Version 9.1.2
 
+Safari (iPhone)
+
 ## <a id="site">How to see</a>
 
 [http://francheskaguzman.io](http://francheskaguzman.io)
