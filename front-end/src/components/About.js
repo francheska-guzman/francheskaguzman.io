@@ -11,7 +11,7 @@ class About extends Component {
         <br />
         <p className="paragraph">
         As a recently graduated student from the Web Development Immersive Program at General Assembly, I am very excited to put my knowledge and skills into practice to develop tools for our society.
-        I am currently looking for opportunities as an entry-level web developer position, in New York or remotely. Check out my <a href="https://francheska-guzman.github.io/" target="_blank" rel="noopener noreferrer">resume</a>!
+        I am currently looking for opportunities as a web developer entry-level position in New York or remotely. Check out my <a href="https://francheska-guzman.github.io/" target="_blank" rel="noopener noreferrer">resume</a>!
         </p>
       </div>
     );
