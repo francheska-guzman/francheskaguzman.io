@@ -6,11 +6,12 @@ class About extends Component {
       <div id='about'>
         <h3>About</h3>
         <p className="paragraph">
-        I am a recently graduated student of web developer, with a previous experience providing accounting services within the higher education sector, and collaborating as a software tester. 
+        I am a passionate web developer based in New York, with over seven years of experience providing accounting services within the higher education sector. I am a member of a crowdsourced software testing community called uTest. 
         </p>
         <br />
         <p className="paragraph">
-        Currently open for opportunities as a junior front-end or back-end web developer, in New York or remotely. Check out my <a href="https://francheska-guzman.github.io/" target="_blank" rel="noopener noreferrer">resume</a>!
+        As a recently graduated student from the Web Development Immersive Program at General Assembly, I am very excited to put my knowledge and skills into practice to develop tools for our society.
+        I am currently looking for opportunities as an entry-level web developer position, in New York or remotely. Check out my <a href="https://francheska-guzman.github.io/" target="_blank" rel="noopener noreferrer">resume</a>!
         </p>
       </div>
     );
