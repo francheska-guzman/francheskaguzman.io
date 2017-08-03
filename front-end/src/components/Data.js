@@ -12,7 +12,7 @@ class Data extends Component {
   project1() {
     this.props.project(
       "Credit Report", 
-      "A financial technology application that calculates the six credit factors and credit score based on user’s financial information contained in the Credit Report API.",
+      "A financial technology application that calculates the six credit factors based on user’s financial information contained in the Credit Report API.",
       "Type '1' or '2' to get user information in the provided input field, which is located in the navigation bar. The application calculate the results in base of the user information. Try using both numbers so you can see that both users have different results.",
       ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express", "PostgreSQL"],
       "https://francheska-guzman.github.io/credit-report/",
@@ -37,7 +37,7 @@ class Data extends Component {
 
   project3() {
   	this.props.project(
-  		"Connect Four", 
+  	  "Connect Four", 
       "The classic board game Connect Four, is a two-player game board in which the players take turns dropping tokens from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form an horizontal, vertical, or diagonal line of four of one's own token.",
       'Refer to "How to Play" link located at the top of the board.',
       ["HTML", "CSS", "JavaScript"],
