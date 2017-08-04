@@ -52,7 +52,7 @@ class Data extends Component {
     this.props.project(
       "Movie Finder", 
       "A movie web application where users can find movie information, as well save, edit, or delete movies from their Favorites list.",
-      "Input a movie title, then press the 'Search' button. To save a movie in Favorites list press 'Add to Favorites'. You will be able to edit the commment, as well delete the movie entry in Favorites",
+      "Input a movie title, then press the 'Search' button. To save a movie in Favorites list press 'Add to Favorites'. You will be able to edit the commment, as well delete the movie entry in Favorites.",
       ["HTML", "CSS", "JavaScript", "jQuery", "EJS", "Node.js", "Express", "PostgreeSQL", <a href="https://www.themoviedb.org/documentation/api" target="_blank">Third Party API</a>],
       "https://findermovie.herokuapp.com/",
       "https://github.com/francheska-guzman/movie-finder",
