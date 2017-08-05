@@ -1,19 +1,19 @@
 ![Portfolio under the sea...](./front-end/public/images/logo/anchor-black.png)
 
-# Portfolio
+# <a name="project">Portfolio</a>
 
-### <a name="tableofcontents">Table of Contents</a>
+### Table of Contents
 
 1. [Description](#description)
 2. [Technologies used](#technologies)
 3. [Cross-browser compatibility](#compatibility)
 4. [How to see](#site)
 
-## <a id="description">Description</a>
+## <a name="description">Description</a>
 
 A collection of some projects I have been worked, an about me section, and contact information.
 
-## <a id="technologies">Technologies used</a>
+## <a name="technologies">Technologies used</a>
 
 * HTML
 * CSS
@@ -21,7 +21,7 @@ A collection of some projects I have been worked, an about me section, and conta
 * JSX
 * React.js
 
-## <a id="compatibility">Cross-browser compatibility</a>
+## <a name="compatibility">Cross-browser compatibility</a>
 
 This site has been tested in the following browsers:
 
@@ -33,6 +33,8 @@ Safari – Version 9.1.2
 
 Safari (iPhone)
 
-## <a id="site">How to see</a>
+## <a name="site">How to see</a>
 
 [http://francheskaguzman.io](http://francheskaguzman.io)
+
+#### [Go back to the Table of Contents](#project)
