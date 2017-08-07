@@ -14,10 +14,10 @@ class Data extends Component {
       "Credit Report", 
       "A financial technology application that calculates the six credit factors based on user’s financial information contained in the Credit Report API.",
       "Type '1' or '2' to get user information in the provided input field, which is located in the navigation bar. The application calculate the results in base of the user information. Try using both numbers so you can see that both users have different results.",
-      ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express", "PostgreSQL"],
-      "https://francheska-guzman.github.io/credit-report/",
-      "https://github.com/francheska-guzman/credit-report/",
-      "https://creditreportapi.herokuapp.com/",
+      ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "PostgreSQL"],
+      "https://francheska-guzman.github.io/credit-report",
+      "https://github.com/francheska-guzman/credit-report",
+      "https://creditreportapi.herokuapp.com",
       ["./images/credit-report/1.png", "./images/credit-report/2.png", "./images/credit-report/3.png"]
     );
   }
@@ -28,8 +28,8 @@ class Data extends Component {
       "The front-end of a Financial Technology Web Application focused on the Stock Market.",
       "Enter any username and password to access the Stock Market homepage. I am currently working in a dynamic, redesigned project built in Angular.js, called 'Brokerage'. The new version will have authentication.",
       ["HTML", "CSS", "JavaScript"],
-      "https://francheska-guzman.github.io/stock-market/",
-      "https://github.com/francheska-guzman/stock-market/",
+      "https://francheska-guzman.github.io/stock-market",
+      "https://github.com/francheska-guzman/stock-market",
       "",
       ["./images/stock-market/1.png", "./images/stock-market/2.png", "./images/stock-market/3.png"]
     );
@@ -41,8 +41,8 @@ class Data extends Component {
       "The classic board game Connect Four, is a two-player game board in which the players take turns dropping tokens from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form an horizontal, vertical, or diagonal line of four of one's own token.",
       'Refer to "How to Play" link located at the top of the board.',
       ["HTML", "CSS", "JavaScript"],
-      "https://francheska-guzman.github.io/connect-four/",
-      "https://github.com/francheska-guzman/connect-four/",
+      "https://francheska-guzman.github.io/connect-four",
+      "https://github.com/francheska-guzman/connect-four",
       "",
   		["./images/connect-four/1.png", "./images/connect-four/2.png", "./images/connect-four/3.png"]
   	);
@@ -51,10 +51,10 @@ class Data extends Component {
   project4(){
     this.props.project(
       "Movie Finder", 
-      "A movie web application where users can find movie information, as well save, edit, or delete movies from their Favorites list.",
+      "A movie web application where users can find movie information, as well save, edit, or delete movies from Favorites list.",
       "Input a movie title, then press the 'Search' button. To save a movie in Favorites list press 'Add to Favorites'. You will be able to edit the commment, as well delete the movie entry in Favorites.",
-      ["HTML", "CSS", "JavaScript", "jQuery", "EJS", "Node.js", "Express", "PostgreeSQL", <a href="https://www.themoviedb.org/documentation/api" target="_blank">Third Party API</a>],
-      "https://findermovie.herokuapp.com/",
+      ["HTML", "CSS", "JavaScript", "jQuery", "EJS", "Node.js", "Express.js", "PostgreeSQL", <a href="https://www.themoviedb.org/documentation/api" target="_blank">Third Party API</a>],
+      "https://findermovie.herokuapp.com",
       "https://github.com/francheska-guzman/movie-finder",
       "",
       ["./images/movie-finder/1.png", "./images/movie-finder/2.png"]

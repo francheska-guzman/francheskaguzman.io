@@ -9,10 +9,10 @@ class Projects extends Component {
       title: "Credit Report",
       description: "A financial technology application that calculates the six credit factors based on user’s financial information contained in the Credit Report API.",
       instructions: "Type '1' or '2' to get user information in the provided input field, which is located in the navigation bar. The application calculate the results in base of the user information. Try using both numbers so you can see that both users have different results.",
-      technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "PostgreSQL"],
-      url_live: "https://francheska-guzman.github.io/credit-report/",
-      url_code: "https://github.com/francheska-guzman/credit-report/",
-      url_api: "https://creditreportapi.herokuapp.com/",
+      technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "PostgreSQL"],
+      url_live: "https://francheska-guzman.github.io/credit-report",
+      url_code: "https://github.com/francheska-guzman/credit-report",
+      url_api: "https://creditreportapi.herokuapp.com",
       slideshow: ["./images/credit-report/1.png", "./images/credit-report/2.png", "./images/credit-report/3.png"]
     }
     this.project = this.project.bind(this);
