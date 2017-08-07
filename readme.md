@@ -19,7 +19,7 @@ A collection of some projects I have been worked, an about me section, and conta
 * CSS
 * JavaScript
 * JSX
-* React.js
+* React
 
 ## <a name="compatibility">Cross-browser compatibility</a>
 
