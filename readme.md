@@ -1,6 +1,6 @@
 ![Portfolio under the sea...](./front-end/public/images/logo/anchor-black.png)
 
-# <a name="project">Portfolio (FrancheskaGuzman.io)</a>
+# <a name="project">Portfolio</a>
 
 ### Table of Contents
 
@@ -35,6 +35,6 @@ Safari (iPhone)
 
 ## <a name="site">How to see</a>
 
-[http://francheskaguzman.io](http://francheskaguzman.io)
+#### [http://francheskaguzman.io](http://francheskaguzman.io)
 
 #### [Go back to the Table of Contents](#project)
