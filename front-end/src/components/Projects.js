@@ -66,19 +66,19 @@ class Projects extends Component {
 
   live() {
     if(this.state.live !== "") {
-      return ( <a href={this.state.live} target="_blank"><img alt="Live" className="img-link" src="./images/logo/live.png" /></a> );
+      return ( <a className="project-buttons" href={this.state.live} target="_blank">Live</a> );
     }
   }
 
   code() {
     if(this.state.code !== "") {
-      return ( <a href={this.state.code} target="_blank"><img alt="Code" className="img-link" src="./images/logo/code.png" /></a> );
+      return ( <a className="project-buttons" href={this.state.code} target="_blank">Code</a> );
     }
   }
 
   api() {
     if(this.state.api !== "") {
-      return ( <a href={this.state.api} target="_blank"><img alt="API"  className="img-link"  src="./images/logo/api.png" /></a> );
+      return ( <a className="project-buttons" href={this.state.api} target="_blank">API</a> );
     }
   }
 

@@ -194,15 +194,9 @@ ul {
 	text-align: right;
 }
 
-.img-link {
-	width: 35px;
-	height: 35px;
-	margin: 0 7px;
-	opacity: .8;
-}
-
-.img-link:hover {
-	opacity: 1;
+.project-buttons {
+	padding: 5px;
+	margin: 5px;
 }
 
 /* Data */
