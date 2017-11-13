@@ -30,7 +30,7 @@ class Data extends Component {
       ["HTML", "CSS", "JavaScript"],
       "https://francheska-guzman.github.io/stock-market",
       "https://github.com/francheska-guzman/stock-market",
-      "",
+      null,
       ["./images/stock-market/1.png", "./images/stock-market/2.png", "./images/stock-market/3.png"]
     );
   }
@@ -43,7 +43,7 @@ class Data extends Component {
       ["HTML", "CSS", "JavaScript"],
       "https://francheska-guzman.github.io/connect-four",
       "https://github.com/francheska-guzman/connect-four",
-      "",
+      null,
   		["./images/connect-four/1.png", "./images/connect-four/2.png", "./images/connect-four/3.png"]
   	);
   }
@@ -56,8 +56,8 @@ class Data extends Component {
       ["HTML", "CSS", "JavaScript", "jQuery", "EJS", "Node.js", "Express.js", "PostgreeSQL", <a href="https://www.themoviedb.org/documentation/api" target="_blank" rel="noopener noreferrer">Third Party API</a>],
       "https://findermovie.herokuapp.com",
       "https://github.com/francheska-guzman/movie-finder",
-      "",
-      ["./images/movie-finder/1.png", "./images/movie-finder/2.png"]
+      null,
+      ["./images/movie-finder/1.png", "./images/movie-finder/2.png", null]
     );
   }
 

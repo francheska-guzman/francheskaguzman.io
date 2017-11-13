@@ -43,11 +43,11 @@ class Projects extends Component {
   /* Render title if no empty. */
 
   description() {
-    if(this.state.description !== "") { return( <h5>Description</h5> ) };
+    if(this.state.description !== null) { return( <h5>Description</h5> ) };
   }
 
   instructions() {
-    if(this.state.instructions !== "") { return( <h5>Instructions</h5> ) };
+    if(this.state.instructions !== null) { return( <h5>Instructions</h5> ) };
   }
 
   technologies() {
@@ -65,19 +65,19 @@ class Projects extends Component {
   /* Render links. */
 
   live() {
-    if(this.state.live !== "") {
+    if(this.state.live !== null) {
       return ( <a className="project-buttons" href={this.state.live} target="_blank">Live</a> );
     }
   }
 
   code() {
-    if(this.state.code !== "") {
+    if(this.state.code !== null) {
       return ( <a className="project-buttons" href={this.state.code} target="_blank">Code</a> );
     }
   }
 
   api() {
-    if(this.state.api !== "") {
+    if(this.state.api !== null) {
       return ( <a className="project-buttons" href={this.state.api} target="_blank">API</a> );
     }
   }
@@ -90,7 +90,7 @@ class Projects extends Component {
 
   slideshow() {
     if(this.state.slideshow[0] === null) {
-      console.log("This project does not have images.");
+      console.log("This project doesn't have pictures.");
     }
     else {
       return ( <Slideshow title={this.state.title}
