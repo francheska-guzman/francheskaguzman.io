@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Slideshow from './Slideshow';
 import Data from './Data';
+// import { Fade } from 'react-slideshow-image';
 
 class Projects extends Component {
   constructor(props){
@@ -84,12 +84,15 @@ class Projects extends Component {
   /* Pictures for each project. */
 
   slideshow() {
-    if(this.state.slideshow[0] === null) {
-      console.log("This project doesn't have pictures.");
-    }
-    else {
-      return ( <Slideshow title={this.state.title}
-                          image={this.state.slideshow} /> );
+    if(this.state.slideshow[0] !== null) {
+      return ( 
+        /* <Fade 
+        images={this.state.slideshow}
+        duration="5000"
+        transitionDuration="1000"
+        /> */
+        <img className="slide-size" alt={this.state.title} src={this.state.slideshow[0]} />
+      )
     }
   }
 
