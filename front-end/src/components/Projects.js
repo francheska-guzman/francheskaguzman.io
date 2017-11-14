@@ -23,7 +23,6 @@ class Projects extends Component {
     this.live = this.live.bind(this);
     this.code = this.code.bind(this);
     this.api = this.api.bind(this);
-    this.buttons = this.buttons.bind(this);
     this.slideshow = this.slideshow.bind(this);
   }
 
@@ -82,10 +81,6 @@ class Projects extends Component {
     }
   }
 
-  buttons() {
-    return ( <div className="right-and-center"> {this.live()} {this.code()} {this.api()} </div> );
-  }
-
   /* Pictures for each project. */
 
   slideshow() {
@@ -110,7 +105,7 @@ class Projects extends Component {
         {/* Title, Buttons */}
         <div id="details">
           <h4>{this.state.title}</h4>
-          {this.buttons()}  
+          <div className="right-and-center"> {this.live()} {this.code()} {this.api()} </div>
         </div>
 
         {/* Description, Instructions, Technologies Used */}
