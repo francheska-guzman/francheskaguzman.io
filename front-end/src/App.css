@@ -272,6 +272,7 @@ input[type="button"].p4 {
 .slide-size {
 	width: 100%;
 	height: 100%;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
 }
 
 .page {
