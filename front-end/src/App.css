@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext,vietnamese');
 
 body {
-	margin: 0 auto;
-	background: #F2F2F2;
+	background: url('./images/pattern-beige.png');
+	background-repeat: repeat;
 }
 
 input:focus,
@@ -15,7 +15,7 @@ button:focus {
 /* Fonts */
 
 h1 {
-	font-size: 50px;
+	font-size: 40px;
 	margin: 0;
 	font-family: 'Quicksand';
 	font-weight: 300;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 16px;
 	margin: 0;
 	font-family: 'Quicksand';
 	font-weight: 300;
@@ -100,15 +100,15 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 a.nav {
-	padding: 0px 10px;
+	padding: 0 10px;
 	font-family: 'Quicksand';
 	font-weight: 400;
-	font-size: 15px;
-	color: #adadad;
+	font-size: 16px;
+	color: #3d6b96;
 }
 
 a.nav:hover {
-	color: #c4c2c2;
+	color: #658eb5;
 }
 
 li.inline {
@@ -124,10 +124,12 @@ li.project {
 }
 
 nav {
-	position: fixed;
-	padding: 0 45px 0 0;
+	padding: 10px 20px 0 0;
 	width: 100%;
-	text-align: right;
+}
+
+.fixed-nav {
+	position: fixed;
 }
 
 ul {
@@ -172,7 +174,6 @@ ul {
 	line-height: 2;
 	color: #6D6B6B;
 }
-
 
 /* Projects */
 
@@ -295,7 +296,7 @@ input[type="button"].p4 {
 #contact {
 	padding: 80px 35px;
 	transition: 1s;
-	background: #e8e8e8;
+	background: #F7F7F7;
 }
 
 /* Footer */
@@ -333,10 +334,21 @@ a.bone-white:hover {
 
 /* Media Queries */
 
-@media (max-width: 1300px) {
+@media screen and (min-width: 1200px) {
+
+  #wrapper {
+	max-width: 1150px;
+	margin: 0 auto;
+	transition: 1s;
+  }
+
+  #projects, #about, #contact {
+	padding: 80px 20px;
+	transition: 1s;
+  }
 
   input[type="button"] {
-  	font-size: 28px;
+  	font-size: 26px;
 	height: 225px;
   }
 
@@ -347,43 +359,16 @@ a.bone-white:hover {
   	background-size: 100% 225px;
   }
 
-}
-
-@media (max-width: 1150px) {
-
-  #projects, #about, #contact {
-	padding: 80px 20px;
-	transition: 1s;
-  }
-
-  input[type="button"] {
-  	font-size: 26px;
-	height: 200px;
-  }
-
-  input[type="button"].p1, 
-  input[type="button"].p2, 
-  input[type="button"].p3, 
-  input[type="button"].p4  {
-  	background-size: 100% 200px;
-  }
-
   footer {
   	padding: 30px 5px;
   }
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
 
   a.nav {
 	padding: 0 5px;
-  }
-
-  nav {
-  	position: absolute;
-  	padding: auto;
-	text-align: center;
   }
 
   li.inline {
@@ -393,12 +378,12 @@ a.bone-white:hover {
   }
 
   h1 {
-  	font-size: 36px;
+  	font-size: 32px;
   	transition: 1s;
   }
 
   h2 {
-  	font-size: 18px;
+  	font-size: 15px;
   	transition: 1s;
   }
 
@@ -443,14 +428,14 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 24px;
-	height: 175px;
+	height: 200px;
   }
 
   input[type="button"].p1, 
   input[type="button"].p2, 
   input[type="button"].p3, 
   input[type="button"].p4  {
-  	background-size: 100% 175px;
+  	background-size: 100% 200px;
   }
 
   .link {
@@ -546,6 +531,11 @@ a.bone-white:hover {
 	font-size: 14px;
 	font-weight: 500;
 	transition: 1s;
+  }
+
+  nav {
+  	padding: auto;
+	text-align: center;
   }
 
 }

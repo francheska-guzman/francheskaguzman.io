@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class Navigation extends Component {
   render() {
     return (
+      <div className="fixed-nav">
       <nav>
         <ul>
           <li className='inline'><a className='nav' href='#home'>Home</a></li>
@@ -11,6 +12,7 @@ class Navigation extends Component {
           <li className='inline'><a className='nav' href='#contact'>Contact</a></li>
         </ul>
       </nav>
+      </div>
     );
   }
 }

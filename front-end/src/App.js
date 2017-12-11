@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-	      <div>
+	      <div id="wrapper">
           <Route startsWith path='/' component={() => (<Navigation />) }/>
 	        <Switch>
             <Route path='/' exact component={() => (<Portfolio />) }/>
