@@ -104,11 +104,11 @@ a.nav {
 	font-family: 'Quicksand';
 	font-weight: 400;
 	font-size: 16px;
-	color: #3d6b96;
+	color: #3D6B96;
 }
 
 a.nav:hover {
-	color: #658eb5;
+	color: #658EB5;
 }
 
 li.inline {
@@ -123,12 +123,14 @@ li.project {
 }
 
 nav {
-	padding: 10px 0 0 0;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
 	width: 100%;
-}
-
-.fixed-nav {
-	position: fixed;
+	top: 0;
+	background: #F9F9F9;
+	opacity: .9;
+	text-align: right;
+	padding: 0 20px;
 }
 
 ul {
@@ -164,7 +166,7 @@ ul {
 #about {
 	padding: 80px 35px;
 	transition: 1s;
-	background: #f9f9f9;
+	background: #F9F9F9;
 }
 
 .paragraph {

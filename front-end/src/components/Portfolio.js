@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import About from './About';
 import Contact from './Contact';
 import Home from './Home';
+import Navigation from './Navigation';
 import Projects from './Projects';
 
 class Portfolio extends Component {
@@ -9,6 +10,7 @@ class Portfolio extends Component {
     return (
       <div>
         <Home />
+        <Navigation />
         <About />
         <Projects />
         <Contact />

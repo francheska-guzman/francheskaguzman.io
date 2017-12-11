@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import FourOFour from './components/Four_O_Four';
 import Footer from './components/Footer';
-import Navigation from './components/Navigation';
 import Portfolio from './components/Portfolio';
 import {
         BrowserRouter as Router,
@@ -17,7 +16,6 @@ class App extends Component {
     return (
       <Router>
 	      <div id="wrapper">
-          <Route startsWith path='/' component={() => (<Navigation />) }/>
 	        <Switch>
             <Route path='/' exact component={() => (<Portfolio />) }/>
 	          <Route path='/*' component={() => (<FourOFour />) }/>
