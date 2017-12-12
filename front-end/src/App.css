@@ -105,6 +105,7 @@ a.nav {
 	font-weight: 400;
 	font-size: 16px;
 	color: #3D6B96;
+	transition: 1s;
 }
 
 a.nav:hover {
@@ -114,6 +115,7 @@ a.nav:hover {
 li.inline {
 	list-style: none;
 	display: inline-block;
+	padding: 0;
 }
 
 li.project {
@@ -131,6 +133,7 @@ nav {
 	opacity: .9;
 	text-align: right;
 	padding: 0 20px;
+	transition: 1s;
 }
 
 ul {
@@ -538,10 +541,12 @@ a.bone-white:hover {
   nav {
 	text-align: center;
 	margin: 0;
+	transition: 1s;
   }
 
   a.nav {
-	padding: auto;
+	padding: 0 8px;
+	transition: 1s;
   }
 
   .slide-size {
@@ -553,10 +558,6 @@ a.bone-white:hover {
 }
 
 @media screen and (max-width: 550px) {
-
-  li.inline {
-	padding: 0px;
-  }
 
   input[type="button"] {
   	font-size: 16px;
