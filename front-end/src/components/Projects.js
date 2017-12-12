@@ -91,7 +91,9 @@ class Projects extends Component {
         duration="5000"
         transitionDuration="1000"
         /> */
+        <div className="center-align">
         <img className="slide-size" alt={this.state.title} src={this.state.slideshow[0]} />
+        </div>
       )
     }
   }

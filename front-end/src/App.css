@@ -134,6 +134,7 @@ nav {
 }
 
 ul {
+	padding: 0px 15px;
 	margin: 0;
 }
 
@@ -164,7 +165,7 @@ ul {
 /* About */
 
 #about {
-	padding: 80px 35px;
+	padding: 80px 40px;
 	transition: 1s;
 	background: #F9F9F9;
 }
@@ -179,7 +180,7 @@ ul {
 /* Projects */
 
 #projects {
-	padding: 80px 35px;
+	padding: 80px 40px;
 	transition: 1s;
 	background: #FFFFFF;
 }
@@ -205,7 +206,7 @@ ul {
 
 input[type="button"] {
 	width: 100%;
-	height: 250px;
+	height: 225px;
 	background: none;
 	border: none;
 	padding: 5px 0px;
@@ -218,25 +219,25 @@ input[type="button"]:hover {
 
 input[type="button"].p1 {
 	background: url("images/projects/1.jpg");
-	background-size: 100% 250px;
+	background-size: 100% 225px;
 	transition: 1s;
 }
 
 input[type="button"].p2 {
 	background: url("images/projects/2.jpg");
-	background-size: 100% 250px;
+	background-size: 100% 225px;
 	transition: 1s;
 }
 
 input[type="button"].p3 {
 	background: url("images/projects/3.jpg");
-	background-size: 100% 250px;
+	background-size: 100% 225px;
 	transition: 1s;
 }
 
 input[type="button"].p4 {
 	background: url("images/projects/4.jpg");
-	background-size: 100% 250px;
+	background-size: 100% 225px;
 	transition: 1s;
 }
 
@@ -246,7 +247,7 @@ input[type="button"].p4 {
 }
 
 .space-2 {
-	margin: 20px 5px 20px 5px;
+	margin: 20px 5px;
 	transition: 1s;
 }
 
@@ -295,7 +296,7 @@ input[type="button"].p4 {
 /* Contact */
 
 #contact {
-	padding: 80px 35px;
+	padding: 80px 40px;
 	transition: 1s;
 	background: #F7F7F7;
 }
@@ -335,16 +336,11 @@ a.bone-white:hover {
 
 /* Media Queries */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1150px) {
 
   #wrapper {
 	max-width: 1150px;
 	margin: 0 auto;
-	transition: 1s;
-  }
-
-  #projects, #about, #contact {
-	padding: 80px 20px;
 	transition: 1s;
   }
 
@@ -366,10 +362,10 @@ a.bone-white:hover {
 
 }
 
-@media (max-width: 1150px) {
+@media screen and (max-width: 1150px) {
 
   a.nav {
-	padding: 0 5px;
+	padding: 0 auto;
   }
 
   li.inline {
@@ -420,7 +416,7 @@ a.bone-white:hover {
   }
 
   .space-2 {
-	margin: 10px 5px 10px 5px;
+	margin: 10px 5px;
   }
 
   .space-3 {
@@ -448,41 +444,46 @@ a.bone-white:hover {
   }
 
   .slide-size {
-  	margin: 0 15% 0 15%;
+  	margin: 0 auto;
   	width: 70%;
   	transition: 1s;
   }
 
+  .center-align {
+  	text-align: center;
+  	width: 100%;
+  }
+
 }
 
-@media (max-width: 850px) {
+@media screen and (max-width: 1000px) {
 
   input[type="button"] {
   	font-size: 22px;
-	height: 150px;
+	height: 170px;
   }
 
   input[type="button"].p1, 
   input[type="button"].p2, 
   input[type="button"].p3, 
   input[type="button"].p4  {
-  	background-size: 100% 150px;
+  	background-size: 100% 170px;
   }
 
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 850px) {
 
   input[type="button"] {
   	font-size: 20px;
-	height: 125px;
+	height: 140px;
   }
 
   input[type="button"].p1, 
   input[type="button"].p2, 
   input[type="button"].p3, 
   input[type="button"].p4  {
-  	background-size: 100% 125px;
+  	background-size: 100% 140px;
   }
 
   h1 {
@@ -496,7 +497,7 @@ a.bone-white:hover {
   }
 
   #projects, #about, #contact {
-	padding: 80px 10px;
+	padding: 80px 25px;
 	transition: 1s;
   }
 
@@ -514,18 +515,18 @@ a.bone-white:hover {
 
 }
 
-@media (max-width: 550px) {
+@media screen and (max-width: 700px) {
 
   input[type="button"] {
   	font-size: 18px;
-	height: 100px;
+	height: 130px;
   }
 
   input[type="button"].p1, 
   input[type="button"].p2, 
   input[type="button"].p3, 
   input[type="button"].p4  {
-  	background-size: 100% 100px;
+  	background-size: 100% 130px;
   }
 
   .p-title {
@@ -535,13 +536,23 @@ a.bone-white:hover {
   }
 
   nav {
-  	padding: auto;
 	text-align: center;
+	margin: 0;
+  }
+
+  a.nav {
+	padding: auto;
+  }
+
+  .slide-size {
+  	margin: 0;
+  	width: 100%;
+  	transition: 1s;
   }
 
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 550px) {
 
   li.inline {
 	padding: 0px;
@@ -549,20 +560,14 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 16px;
-	height: 75px;
+	height: 100px;
   }
 
   input[type="button"].p1, 
   input[type="button"].p2, 
   input[type="button"].p3, 
   input[type="button"].p4  {
-  	background-size: 100% 75px;
-  }
-
-  .slide-size {
-  	margin: 0;
-  	width: 100%;
-  	transition: 1s;
+  	background-size: 100% 100px;
   }
 
 }
