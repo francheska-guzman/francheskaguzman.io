@@ -10,6 +10,7 @@
     "react-animate-on-scroll": "^1.6.0",
     "react-bootstrap": "^0.31.1",
     "react-dom": "^15.6.1",
+    "react-reveal-text": "^0.1.0",
     "react-router-dom": "^4.1.1",
     "react-scripts": "1.0.10",
     "react-scrollable-anchor": "^0.4.2",

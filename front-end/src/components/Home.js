@@ -9,7 +9,7 @@ class Home extends Component {
       	  <h2>A web developer based in New York.</h2>
       	  <br/>
       	  <a href="#about"><img alt="Check out my portfolio!" id="anchor" src="./images/logo/anchor-white.png" /></a>
-      	</div>
+        </div>
       </div>
     );
   }
