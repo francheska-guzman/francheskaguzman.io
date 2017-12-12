@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Data from './Data';
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 // import { Fade } from 'react-slideshow-image';
 
 class Projects extends Component {
