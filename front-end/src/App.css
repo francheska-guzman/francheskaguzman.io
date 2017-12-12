@@ -554,14 +554,14 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 16px;
-	height: 100px;
+	height: 90px;
   }
 
   input[type="button"].p1, 
   input[type="button"].p2, 
   input[type="button"].p3, 
   input[type="button"].p4  {
-  	background-size: 100% 100px;
+  	background-size: 100% 90px;
   }
 
 }
