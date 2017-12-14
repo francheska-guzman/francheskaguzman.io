@@ -6,9 +6,7 @@ class About extends Component {
       <div id='about'>
         <h3>About</h3>
         <p className="paragraph">Hello everyone!</p><br/>
-        <p className="paragraph">
-        My name is Francheska Guzman, and I am a web developer who loves learn new technologies. Occasionally, I contribute to the <a href="https://www.utest.com/profile/francheska-guzman/about" target="_blank" rel="noopener noreferrer">uTest</a> community through executing test cases, as well performing exploratory and functional testing in web and native applications. I am currently looking for opportunities as a web developer entry level/intern position in New York or remote. Feel free to check out my <a href="https://francheska-guzman.github.io/" target="_blank" rel="noopener noreferrer">resume</a>, and more projects on <a href="https://github.com/francheska-guzman" target="_blank" rel="noopener noreferrer">GitHub</a>!
-        </p>
+        <p className="paragraph">My name is Francheska and I was born and raised in San Juan, Puerto Rico. In 2015, after graduating from college, I moved to New York. I am a passionate web developer who loves learn new technologies. Eager to contribute to the society, and grow in the tech field. Feel free to checkout my <a href="https://francheska-guzman.github.io" target="_blank">resume</a> for more details regarding my experience.</p>
       </div>
     );
   }
