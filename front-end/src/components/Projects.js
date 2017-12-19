@@ -103,7 +103,7 @@ class Projects extends Component {
       <div id='projects'>
         <div>
           <h3> My Latest Work </h3>
-          <p className="paragraph">Take a look at some of my most precious and non-hidden treasures. Keep in mind that my node.js applications are hosted in Heroku, and may takes time to be rendered.</p>
+          <p className="paragraph">Take a look at some of my most precious and non-hidden treasures. Keep in mind that the Node.js applications are hosted in Heroku, and may take time to render.</p>
           <Data project={this.project} state={this.state} />
         </div>
 
