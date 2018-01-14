@@ -8,12 +8,12 @@ class Projects extends Component {
     this.state = {
       title: "Credit Report",
       description: "A financial technology application that calculates the six credit factors based on user’s financial information contained in the Credit Report API.",
-      instructions: "Type '1' or '2' to get user information in the provided input field, which is located in the navigation bar. The application calculate the results in base of the user information. Try using both numbers so you can see that both users have different results.",
+      instructions: "Type '1' or '2' in the provided input field, to get user information. The application calculate the results in base of the user information.",
       technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "PostgreSQL"],
       live: "https://francheska-guzman.github.io/credit-report",
       code: "https://github.com/francheska-guzman/credit-report",
       api: "https://creditreportapi.herokuapp.com",
-      slideshow: ["./images/credit-report/1.png", "./images/credit-report/2.png", "./images/credit-report/3.png"]
+      slideshow: ["./images/credit-report/1.png", "", ""]
     }
     this.project = this.project.bind(this);
     this.description = this.description.bind(this);
