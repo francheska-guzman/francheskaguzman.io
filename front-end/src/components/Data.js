@@ -13,12 +13,12 @@ class Data extends Component {
     this.props.project(
       "Credit Report", 
       "A financial technology application that calculates the six credit factors based on user’s financial information contained in the Credit Report API.",
-      "Type '1' or '2' to get user information in the provided input field, which is located in the navigation bar. The application calculate the results in base of the user information. Try using both numbers so you can see that both users have different results.",
+      "Type '1' or '2' in the provided input field, to get user information. The application calculate the results in base of the user information.",
       ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "PostgreSQL"],
       "https://francheska-guzman.github.io/credit-report",
       "https://github.com/francheska-guzman/credit-report",
       "https://creditreportapi.herokuapp.com",
-      ["./images/credit-report/1.png", "./images/credit-report/2.png", "./images/credit-report/3.png"]
+      ["./images/credit-report/1.png", "", ""]
     );
   }
 
@@ -53,7 +53,7 @@ class Data extends Component {
       "Movie Finder", 
       "A movie web application where users can find movie information, as well save, edit, or delete movies from Favorites list.",
       "Input a movie title, then press the 'Search' button. To save a movie in Favorites list press 'Add to Favorites'. You will be able to edit the commment, as well delete the movie entry in Favorites.",
-      ["HTML", "CSS", "JavaScript", "jQuery", "EJS", "Node.js", "Express.js", "PostgreeSQL", <a href="https://www.themoviedb.org/documentation/api" target="_blank" rel="noopener noreferrer">Third Party API</a>],
+      ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "Express.js", "PostgreSQL", <a href="https://www.themoviedb.org/documentation/api" target="_blank" rel="noopener noreferrer">Third Party API</a>],
       "https://findermovie.herokuapp.com",
       "https://github.com/francheska-guzman/movie-finder",
       null,
