@@ -203,9 +203,26 @@ ul {
 	text-align: right;
 }
 
-.project-buttons {
-	padding: 5px;
-	margin: 5px;
+a.project-buttons {
+	padding: 0px 20px;
+	color: #8e2105;
+	font-size: 18px;
+	font-family: 'Quicksand';
+}
+
+a.project-buttons:hover {
+	color: #d62f04;
+}
+
+.links-wrapper {
+	padding: 20px;
+	text-align: center;
+}
+
+.decoration {
+	color: #ccc9c9;
+	font-size: 30px;
+	font-weight: 100;
 }
 
 /* Data */

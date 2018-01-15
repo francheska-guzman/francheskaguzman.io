@@ -110,7 +110,6 @@ class Projects extends Component {
         {/* Title, Buttons */}
         <div id="details">
           <h4>{this.state.title}</h4>
-          <div className="right-and-center"> {this.live()} {this.code()} {this.api()} </div>
         </div>
 
         {/* Description, Instructions, Technologies Used */}
@@ -130,6 +129,12 @@ class Projects extends Component {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="links-wrapper">
+          <span className="decoration">|</span> 
+            {this.live()} {this.code()} {this.api()} 
+          <span className="decoration">|</span>
         </div>
       </div>
     );
