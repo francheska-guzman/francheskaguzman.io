@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext,vietnamese');
 
 body {
-	background: url('./images/pattern-beige.png');
-	background-repeat: repeat;
+	background: #fcfcfc;
 }
 
 input:focus,
@@ -50,7 +49,7 @@ h4 {
 }
 
 h5 {
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'Quicksand';
 	font-weight: 500;
 	margin: 10px 0;
@@ -58,9 +57,9 @@ h5 {
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 17px;
 	font-family: 'Quicksand';
-	font-weight: 400;
+	font-weight: 300;
 }
 
 p {
@@ -97,27 +96,23 @@ p {
 
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration: none;
+    color: #074484;
+}
+
+a:hover {
+	color: #2769ad;
 }
 
 a.nav {
-	padding: 0 15px;
 	font-family: 'Quicksand';
 	font-weight: 400;
 	font-size: 16px;
-	color: #3D6B96;
-	transition: 1s;
-	margin: 0;
-}
-
-a.nav:hover {
-	color: #658EB5;
 }
 
 li.inline {
 	list-style: none;
 	display: inline-block;
-	padding: 0;
-	margin: 0;
+	padding: 15px;
 }
 
 li.project {
@@ -134,7 +129,7 @@ nav {
 	background: #F9F9F9;
 	opacity: .9;
 	text-align: right;
-	padding: 0 20px;
+	padding: 0 5px;
 	transition: 1s;
 	margin: 0;
 }
@@ -171,7 +166,7 @@ ul {
 /* About */
 
 #about {
-	padding: 70px 40px;
+	padding: 30px 40px 70px 40px;
 	transition: 1s;
 	background: #F9F9F9;
 }
@@ -205,13 +200,8 @@ ul {
 
 a.project-buttons {
 	padding: 0px 20px;
-	color: #8e2105;
 	font-size: 18px;
 	font-family: 'Quicksand';
-}
-
-a.project-buttons:hover {
-	color: #d62f04;
 }
 
 .links-wrapper {
@@ -220,7 +210,7 @@ a.project-buttons:hover {
 }
 
 .decoration {
-	color: #ccc9c9;
+	color: #f0f0f0;
 	font-size: 30px;
 	font-weight: 100;
 }
@@ -321,7 +311,18 @@ input[type="button"].p4 {
 #contact {
 	padding: 70px 40px;
 	transition: 1s;
-	background: #F7F7F7;
+	background: #FAFAFA;
+}
+
+.resume {
+	text-align: center;
+	margin: auto;
+}
+
+a.resume-link {
+	font-family: 'Quicksand';
+	font-weight: 300;
+	font-size: 25px;
 }
 
 /* Footer */
