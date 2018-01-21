@@ -4,6 +4,13 @@ body {
 	background: #fcfcfc;
 }
 
+#wrapper {
+	max-width: 1150px;
+	margin: 0 auto;
+	transition: 1s;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -167,7 +174,7 @@ ul {
 /* About */
 
 #about {
-	padding: 30px 40px 70px 40px;
+	padding: 70px 40px 70px 40px;
 	transition: 1s;
 	background: #F9F9F9;
 }
@@ -255,6 +262,18 @@ input[type="button"].p4 {
 	transition: 1s;
 }
 
+input[type="button"] {
+  	font-size: 26px;
+	height: 225px;
+}
+
+input[type="button"].p1, 
+input[type="button"].p2, 
+input[type="button"].p3, 
+input[type="button"].p4  {
+  	background-size: 100% 225px;
+}
+
 .space-1 {
 	margin: 20px 10px 20px 0;
 	transition: 1s;
@@ -329,10 +348,10 @@ a.resume-link {
 /* Footer */
 
 footer {
-	padding: 30px 35px;
 	height: auto;
 	text-align: center;
 	background: #00253B;
+	padding: 30px 5px 38px 5px;
 }
 
 .logo {
@@ -360,33 +379,6 @@ a.bone-white:hover {
 }
 
 /* Media Queries */
-
-@media screen and (min-width: 1150px) {
-
-  #wrapper {
-	max-width: 1150px;
-	margin: 0 auto;
-	transition: 1s;
-	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
-  }
-
-  input[type="button"] {
-  	font-size: 26px;
-	height: 225px;
-  }
-
-  input[type="button"].p1, 
-  input[type="button"].p2, 
-  input[type="button"].p3, 
-  input[type="button"].p4  {
-  	background-size: 100% 225px;
-  }
-
-  footer {
-  	padding: 30px 5px 35px 5px;
-  }
-
-}
 
 @media screen and (max-width: 1150px) {
  
