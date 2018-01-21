@@ -367,6 +367,7 @@ a.bone-white:hover {
 	max-width: 1150px;
 	margin: 0 auto;
 	transition: 1s;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
   }
 
   input[type="button"] {
