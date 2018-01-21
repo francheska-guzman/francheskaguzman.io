@@ -106,7 +106,7 @@ a:hover {
 a.nav {
 	font-family: 'Quicksand';
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 li.inline {
@@ -129,9 +129,10 @@ nav {
 	background: #F9F9F9;
 	opacity: .9;
 	text-align: right;
-	padding: 0 5px;
+	padding: 0;
 	transition: 1s;
 	margin: 0;
+
 }
 
 ul {
@@ -381,13 +382,13 @@ a.bone-white:hover {
   }
 
   footer {
-  	padding: 30px 5px;
+  	padding: 30px 5px 35px 5px;
   }
 
 }
 
 @media screen and (max-width: 1150px) {
-
+ 
   .flex-row {
     display: block;
   }
@@ -437,6 +438,10 @@ a.bone-white:hover {
   .center-align {
   	text-align: center;
   	width: 100%;
+  }
+
+  .resume {
+	padding-top: 20px;
   }
 
 }
