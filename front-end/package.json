@@ -15,7 +15,9 @@
     "react-scripts": "1.0.10",
     "react-scrollable-anchor": "^0.4.2",
     "react-scrollchor": "^4.0.0",
-    "react-slideshow-image": "^0.1.2"
+    "react-slideshow-image": "^0.1.2",
+    "react-slidez": "0.0.20",
+    "react-typist": "^2.0.4"
   },
   "scripts": {
     "predeploy": "npm run build",

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Data from './Data';
-// import { Fade } from 'react-slideshow-image';
 
 class Projects extends Component {
   constructor(props){
@@ -86,11 +85,6 @@ class Projects extends Component {
   slideshow() {
     if(this.state.slideshow[0] !== null) {
       return ( 
-        /* <Fade 
-        images={this.state.slideshow}
-        duration="5000"
-        transitionDuration="1000"
-        /> */
         <div className="center-align">
         <img className="slide-size" alt={this.state.title} src={this.state.slideshow[0]} />
         </div>
