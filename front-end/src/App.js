@@ -17,8 +17,8 @@ class App extends Component {
       <Router>
 	      <div id="wrapper">
 	        <Switch>
-            <Route path='/' exact component={() => (<Portfolio />) }/>
             <Route path='/es' exact component={() => (<Portafolio />) }/>
+            <Route path='/' exact component={() => (<Portfolio />) }/>
 	          <Redirect from='/*' to='/' />
 	        </Switch>
 	      </div>
