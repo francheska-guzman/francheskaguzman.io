@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Portfolio from './components/english/Portfolio';
-import Portafolio from './components/spanish/Portafolio';
+import Portfolio from './components/Portfolio';
+import Portafolio from './componentes/Portafolio';
 import {
         BrowserRouter as Router,
         Route,
