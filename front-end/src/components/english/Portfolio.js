@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import About from './About';
 import Contact from './Contact';
+import Footer from './Footer';
 import Home from './Home';
 import Navigation from './Navigation';
 import Projects from './Projects';
@@ -14,6 +15,7 @@ class Portfolio extends Component {
         <About />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     );
   }

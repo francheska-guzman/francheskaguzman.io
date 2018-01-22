@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import FourOFour from './components/Four_O_Four';
-import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/english/Portfolio';
+import Portafolio from './components/spanish/Portafolio';
 import {
         BrowserRouter as Router,
         Route,
+        Redirect,
         Switch
       } from 'react-router-dom';
 import './App.css';
@@ -18,9 +18,9 @@ class App extends Component {
 	      <div id="wrapper">
 	        <Switch>
             <Route path='/' exact component={() => (<Portfolio />) }/>
-	          <Route path='/*' component={() => (<FourOFour />) }/>
+            <Route path='/es' exact component={() => (<Portafolio />) }/>
+	          <Redirect from='/*' to='/' />
 	        </Switch>
-	        <Route startsWith path='/' component={() => (<Footer />) }/>
 	      </div>
       </Router>
     );

@@ -378,6 +378,13 @@ a.bone-white:hover {
 	color: #FFFFFF;
 }
 
+#four-o-four {
+	background: #f3f3f3;
+	text-align: center;
+	height: 400px;
+	padding: 15% 25%;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1150px) {
