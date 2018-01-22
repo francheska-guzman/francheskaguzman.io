@@ -9,7 +9,7 @@ import {
       } from 'react-router-dom';
 import './App.css';
 
-console.log('App.js is working.');
+// console.log('App.js is working.');
 
 class App extends Component {
   render() {
@@ -17,8 +17,8 @@ class App extends Component {
       <Router>
 	      <div id="wrapper">
 	        <Switch>
-            <Route path='/es' exact component={() => (<Portafolio />) }/>
-            <Route path='/' exact component={() => (<Portfolio />) }/>
+            <Route exact path='/es' exact component={() => (<Portafolio />) }/>
+            <Route exact path='/' exact component={() => (<Portfolio />) }/>
 	          <Redirect from='/*' to='/' />
 	        </Switch>
 	      </div>
