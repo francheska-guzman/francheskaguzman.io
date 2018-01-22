@@ -17,7 +17,7 @@ class App extends Component {
       <Router>
 	      <div id="wrapper">
 	        <Switch>
-            <Route path='/francheskaguzman.io/es' component={() => (<Portafolio />) }/>
+            <Route path='francheskaguzman.io/es' component={() => (<Portafolio />) }/>
             <Route path='/' component={() => (<Portfolio />) }/>
 	          <Redirect from='/*' to='/' />
 	        </Switch>
