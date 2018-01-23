@@ -5,6 +5,7 @@ import Portfolio from './components/english/Portfolio';
 import Portafolio from './components/spanish/Portafolio';
 import {
         BrowserRouter as Router,
+        Redirect,
         Route,
         Switch
       } from 'react-router-dom';
@@ -17,7 +18,8 @@ class App extends Component {
   	    <div id="wrapper">
           <Switch>
             <Route exact path='/' component={() => ( <Portfolio /> )}/>
-            <Route exact path='/es' component={() => ( <Portafolio /> )}/>
+            <Route path='/es' component={() => ( <Portafolio /> )}/>
+            <Redirect from='/*' to='/' />
           </Switch>
   	    </div>
       </Router>

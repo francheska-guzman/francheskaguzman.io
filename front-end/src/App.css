@@ -2,6 +2,7 @@
 
 body {
 	background: #fcfcfc;
+	font-family: 'Quicksand';
 }
 
 #wrapper {
@@ -23,7 +24,6 @@ button:focus {
 h1 {
 	font-size: 42px;
 	margin: 0;
-	font-family: 'Quicksand';
 	font-weight: 300;
 	color: #FFFFFF;
 	transition: 1s;
@@ -32,7 +32,6 @@ h1 {
 h2 {
 	font-size: 18px;
 	margin: 0;
-	font-family: 'Quicksand';
 	font-weight: 300;
 	color: #D1D1D1;
 	transition: 1s;
@@ -40,7 +39,6 @@ h2 {
 
 h3 {
 	font-size: 35px;
-	font-family: 'Quicksand';
 	font-weight: 500;
 	margin: 0 0 40px 0;
 	transition: 1s;
@@ -49,7 +47,6 @@ h3 {
 h4 {
 	padding: 0 0 20px 0;
 	font-size: 35px;
-	font-family: 'Quicksand';
 	font-weight: 400;
 	text-align: center;
 	transition: 1s;
@@ -57,7 +54,6 @@ h4 {
 
 h5 {
 	font-size: 18px;
-	font-family: 'Quicksand';
 	font-weight: 500;
 	margin: 10px 0;
 	transition: 1s;
@@ -65,12 +61,10 @@ h5 {
 
 h6 {
 	font-size: 17px;
-	font-family: 'Quicksand';
 	font-weight: 300;
 }
 
 p {
-	font-family: 'Quicksand';
 	font-weight: 400;
 	margin: 0;
 	font-size: 15px;
@@ -111,7 +105,6 @@ a:hover {
 }
 
 a.nav {
-	font-family: 'Quicksand';
 	font-weight: 400;
 	font-size: 15px;
 }
@@ -124,7 +117,6 @@ li.inline {
 
 li.project {
 	list-style: none;
-	font-family: 'Quicksand';
 	font-size: 15px;
 }
 
@@ -209,7 +201,6 @@ ul {
 a.project-buttons {
 	padding: 0px 20px;
 	font-size: 18px;
-	font-family: 'Quicksand';
 }
 
 .links-wrapper {
@@ -292,7 +283,6 @@ input[type="button"].p4  {
 .p-title {
 	display: block;
 	font-size: 16px;
-	font-family: 'Quicksand';
 	font-weight: 500;
 	text-align: center;
 	transition: 1s;
@@ -315,7 +305,6 @@ input[type="button"].p4  {
 	padding: 10px;
 	text-align: center;
 	border: none;
-	font-family: 'Quicksand';
 	font-weight: 400;
 	background: none;
 	color: #0075BA;
@@ -340,7 +329,6 @@ input[type="button"].p4  {
 }
 
 a.resume-link {
-	font-family: 'Quicksand';
 	font-weight: 300;
 	font-size: 25px;
 }
