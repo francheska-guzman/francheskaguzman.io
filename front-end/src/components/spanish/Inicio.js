@@ -6,7 +6,7 @@ class Inicio extends Component {
     return (
       <div id='inicio'>
         <div className="vertical-center">
-      	  <h1>Francheska Guzman</h1>
+      	  <h1>Francheska Guzmán</h1>
           <h2>
             <Typist>
         	   Una desarrolladora de aplicaciones localizada en Nueva York.
