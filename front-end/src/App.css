@@ -174,7 +174,7 @@ ul {
 /* About */
 
 #about, #sobre-mi {
-	padding: 55px 40px 70px 40px;
+	padding: 80px 40px;
 	transition: 1s;
 	background: #F9F9F9;
 }
@@ -189,7 +189,7 @@ ul {
 /* Projects */
 
 #projects, #proyectos {
-	padding: 70px 40px;
+	padding: 80px 40px;
 	transition: 1s;
 	background: #FFFFFF;
 }
@@ -329,7 +329,7 @@ input[type="button"].p4  {
 /* Contact */
 
 #contact, #contacto {
-	padding: 70px 40px;
+	padding: 80px 40px;
 	transition: 1s;
 	background: #FBFBFB;
 }

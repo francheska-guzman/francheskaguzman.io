@@ -13,7 +13,7 @@ class Data extends Component {
     this.props.project(
       "Credit Report", 
       "A financial technology application that calculates the six credit factors based on user’s financial information contained in the Credit Report API.",
-      "Type '1' or '2' in the provided input field, to get user information. The application calculate the results in base of the user information.",
+      "Type 1 or 2 in the provided input field, to get user's information.",
       ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "PostgreSQL"],
       "https://francheska-guzman.github.io/credit-report",
       "https://github.com/francheska-guzman/credit-report",
@@ -26,7 +26,7 @@ class Data extends Component {
     this.props.project(
       "Stock Market", 
       "The front-end of a Financial Technology Web Application focused on the Stock Market.",
-      "Enter any username and password to access the Stock Market homepage. I am currently working in a dynamic, redesigned project built in Angular.js, called 'Brokerage'. The new version will have authentication.",
+      "Enter any username and password to access the Stock Market homepage. I am currently working in a dynamic and redesigned project built in Angular, called 'Brokerage'. The new version will have authentication.",
       ["HTML", "CSS", "JavaScript"],
       "https://francheska-guzman.github.io/stock-market",
       "https://github.com/francheska-guzman/stock-market",
@@ -52,7 +52,7 @@ class Data extends Component {
     this.props.project(
       "Movie Finder", 
       "A movie web application where users can find movie information, as well save, edit, or delete movies from Favorites list.",
-      "Input a movie title, then press the 'Search' button. To save a movie in Favorites list press 'Add to Favorites'. You will be able to edit the commment, as well delete the movie entry in Favorites.",
+      'Input a movie title, then press the "Search" button. To save a movie in Favorites list press "Add to Favorites". You will be able to edit the commment, as well delete the movie entry in Favorites.',
       ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "Express.js", "PostgreSQL", <a href="https://www.themoviedb.org/documentation/api" target="_blank" rel="noopener noreferrer">Third Party API</a>],
       "https://findermovie.herokuapp.com",
       "https://github.com/francheska-guzman/movie-finder",
