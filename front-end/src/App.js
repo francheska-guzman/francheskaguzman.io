@@ -9,19 +9,19 @@ import {
       } from 'react-router-dom';
 import './App.css';
 
-// console.log('App.js is working.');
-
 class App extends Component {
   render() {
     return (
       <Router>
-	      <div id="wrapper">
-	        <Switch>
-            <Route exact path='/' component={() => (<Portfolio />) }/>
-            <Route exact path='/es' component={() => (<Portafolio />) }/>
+	    <div id="wrapper">
+	       <Switch>
+              <Route exact path='/' component={() => 
+              	(<Portfolio />) }/>
+              <Route path='/es' component={() => 
+              	(<Portafolio />) }/>
 	          <Redirect from='/*' to='/' />
-	        </Switch>
-	      </div>
+	       </Switch>
+	    </div>
       </Router>
     );
   }
