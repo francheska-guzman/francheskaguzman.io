@@ -19,7 +19,7 @@ class App extends Component {
               	(<Portfolio />) }/>
             <Route path='/es' exact component={() => 
               	(<Portafolio />) }/>
-	          <Redirect from='/*' to='/' />
+	          <Redirect to='/' />
 	       </Switch>
 	    </div>
       </Router>
