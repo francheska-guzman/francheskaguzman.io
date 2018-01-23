@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Data extends Component {
+class Datos extends Component {
   constructor(props){
     super(props);
     this.project1 = this.project1.bind(this);
@@ -146,4 +146,4 @@ class Data extends Component {
   }
 }
 
-export default Data;
+export default Datos;
