@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Contacto extends Component {
   render() {
     return (
-      <div id='contact'>
+      <div id='contacto'>
         <div className="flex-row">
           <div className="flex-2">
             <h3>Contacto</h3>

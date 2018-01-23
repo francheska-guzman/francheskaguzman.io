@@ -4,7 +4,7 @@ import Typist from 'react-typist';
 class Inicio extends Component {
   render() {
     return (
-      <div id='home'>
+      <div id='inicio'>
         <div className="vertical-center">
       	  <h1>Francheska Guzman</h1>
           <h2>
