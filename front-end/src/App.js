@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-// Importing English site.
+
 import Portfolio from './components/english/Portfolio';
-// Importing Spanish site.
 import Portafolio from './components/spanish/Portafolio';
+
 import {
         BrowserRouter as Router,
         Redirect,
@@ -17,8 +17,8 @@ class App extends Component {
       <Router>
   	    <div id="wrapper">
           <Switch>
-            <Route exact path='/' component={() => ( <Portfolio /> )}/>
-            <Route path='/es' component={() => ( <Portafolio /> )}/>
+            <Route exact path='/' component={() => ( <Portfolio /> )} />
+            <Route path='/es' component={() => ( <Portafolio /> )} />
             <Redirect from='/*' to='/' />
           </Switch>
   	    </div>

@@ -6,7 +6,7 @@ class Proyectos extends Component {
     super(props);
     this.state = {
       title: "Credit Report", 
-      description: "Una aplicación financiera que calcula los seis factores de crédito basado en la información financiera del usuario localizada en el API de Credit Report.",
+      description: "Una aplicación financiera que calcula los seis factores de crédito basado en los datos del usuario que se encuentran en el API de Credit Report.",
       instructions: 'Ingresa 1 ó 2 en el campo provisto, para desplegar la información del usuario.',
       technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "PostgreSQL"],
       live: "https://francheska-guzman.github.io/credit-report",

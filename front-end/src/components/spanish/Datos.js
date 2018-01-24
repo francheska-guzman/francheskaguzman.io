@@ -12,7 +12,7 @@ class Datos extends Component {
   project1() {
     this.props.project(
       "Credit Report", 
-      "Una aplicación financiera que calcula los seis factores de crédito basado en la información financiera del usuario localizada en el API de Credit Report.",
+      "Una aplicación financiera que calcula los seis factores de crédito basado en los datos del usuario que se encuentran en el API de Credit Report.",
       'Ingresa 1 ó 2 en el campo provisto, para desplegar la información del usuario.',
       ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "PostgreSQL"],
       "https://francheska-guzman.github.io/credit-report",
