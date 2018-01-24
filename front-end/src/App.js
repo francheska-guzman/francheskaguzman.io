@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-import Portfolio from './components/english/Portfolio';
-import Portafolio from './components/spanish/Portafolio';
+import Portfolio from './components/Portfolio';
 
 import {
         BrowserRouter as Router,
@@ -18,7 +17,6 @@ class App extends Component {
   	    <div id="wrapper">
           <Switch>
             <Route exact path='/' component={() => ( <Portfolio /> )} />
-            <Route path='/es' component={() => ( <Portafolio /> )} />
             <Redirect from='/*' exact to='/' />
           </Switch>
   	    </div>
