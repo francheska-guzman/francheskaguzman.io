@@ -19,7 +19,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={() => ( <Portfolio /> )} />
             <Route path='/es' component={() => ( <Portafolio /> )} />
-            <Redirect from='/*' to='/' />
+            <Redirect from='/*' exact to='/' />
           </Switch>
   	    </div>
       </Router>

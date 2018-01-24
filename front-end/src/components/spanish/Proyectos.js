@@ -94,7 +94,7 @@ class Proyectos extends Component {
 
   render() {
     return (
-      <div id='projects'>
+      <div id='proyectos'>
         <div>
           <h3> Mis Últimos Proyectos </h3>
           <p className="paragraph">Échale un vistazo a algunos de mis más preciados y no tan ocultos tesoros. Ten en cuenta que las aplicaciones en Node.js estan alojadas en Heroku, y podría tomar tiempo en desplegar la información.</p>
