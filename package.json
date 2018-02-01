@@ -1,5 +1,5 @@
 {
-  "name": "front-end",
+  "name": "francheskaguzman.io",
   "homepage": "http://francheskaguzman.io/",
   "version": "0.1.0",
   "private": true,
@@ -21,10 +21,10 @@
     "react-typist": "^2.0.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "deploy": "npm run build && npm run ghpages",
     "build": "react-scripts build",
+    "ghpages": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
