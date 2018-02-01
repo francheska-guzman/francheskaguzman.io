@@ -1,4 +1,4 @@
-![Portfolio under the sea...](./front-end/public/images/logo/anchor-black.png)
+![Portfolio under the sea...](./public/images/logo/anchor-black.png)
 
 # <a name="project">Portfolio</a>
 
