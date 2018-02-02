@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class MiniProjects extends Component {
   render() {
@@ -55,7 +55,7 @@ class MiniProjects extends Component {
           </div>
         </div>
         <div className="go-back">
-          <NavLink className="back" to="/">❮ Go Back</NavLink>
+          <Link className="back" to="/">❮ Go Back</Link>
         </div>
       </div>
     );
