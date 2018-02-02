@@ -17,7 +17,8 @@ class App extends Component {
   	    <div id="wrapper">
           <Switch>
             <Route exact path='/' component={() => ( <Portfolio /> )} />
-            <Route path='/mini-projects' exact component={() => ( <MiniProjects /> )} />
+            <Route path='/mini-projects/' component={() => ( <MiniProjects /> )} />
+            <Route path='/*' component={() => ( <Portfolio /> )} />
           </Switch>
   	    </div>
       </Router>
