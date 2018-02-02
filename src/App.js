@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Portfolio from './components/Portfolio';
+import MiniProjects from './components/MiniProjects';
 
 import {
         BrowserRouter as Router,
@@ -17,6 +18,7 @@ class App extends Component {
   	    <div id="wrapper">
           <Switch>
             <Route exact path='/' component={() => ( <Portfolio /> )} />
+            <Route exact path='/mini-projects' component={() => ( <MiniProjects /> )} />
             <Redirect from='/*' exact to='/' />
           </Switch>
   	    </div>
