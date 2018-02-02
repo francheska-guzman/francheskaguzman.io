@@ -100,7 +100,7 @@ class Projects extends Component {
           <h3> Projects </h3>
           <p className="paragraph">
           Take a look at some of my most precious and non-hidden treasures. Keep in mind that the Node.js applications are hosted in Heroku, and may take time to render.
-          Feel free to check out my mini treasures <NavLink to="/mini-projects">here</NavLink>.
+          If you are looking for more treasures, <NavLink to="/mini-projects">press here</NavLink>.
           </p>
           <Data project={this.project} state={this.state} />
         </div>
