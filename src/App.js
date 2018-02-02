@@ -5,7 +5,6 @@ import MiniProjects from './components/MiniProjects';
 
 import {
         BrowserRouter as Router,
-        Redirect,
         Route,
         Switch
       } from 'react-router-dom';
@@ -18,8 +17,7 @@ class App extends Component {
   	    <div id="wrapper">
           <Switch>
             <Route exact path='/' component={() => ( <Portfolio /> )} />
-            <Route exact path='/mini-projects' component={() => ( <MiniProjects /> )} />
-            <Redirect from='/*' exact to='/' />
+            <Route path='/mini-projects' exact component={() => ( <MiniProjects /> )} />
           </Switch>
   	    </div>
       </Router>
