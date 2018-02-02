@@ -3,7 +3,6 @@ import './App.css';
 
 import Portfolio from './components/Portfolio';
 import MiniProjects from './components/MiniProjects';
-// import PageNotFound from './components/PageNotFound';
 
 import {
         BrowserRouter as Router,
@@ -19,8 +18,8 @@ class App extends Component {
       <Router>
         <div id="wrapper">
          <Switch>
+            <Route path="/mini-projects" component={() => ( <MiniProjects /> )} />
             <Route exact path="/" component={() => ( <Portfolio /> )} />
-            <Route exact path="/mini-projects" component={() => ( <MiniProjects /> )} />
             <Redirect from="*" to="/" />
          </Switch>
         </div>
