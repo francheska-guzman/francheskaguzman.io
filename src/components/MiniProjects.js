@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class MiniProjects extends Component {
   render() {
     return (
       <div id="mini-projects">
         <div className="go-back">
-           <a className="back" href="/#projects">❮ Go Back</a>
+          <NavLink className="back" to="/">❮ Go Back</NavLink>
         </div>
 
         <h3> Mini Projects </h3>
