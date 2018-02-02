@@ -7,7 +7,6 @@ import PageNotFound from './components/PageNotFound';
 
 import {
         BrowserRouter as Router,
-        Redirect,
         Route,
         Switch
         } from 'react-router-dom';
@@ -19,10 +18,9 @@ class App extends Component {
       <Router>
         <div id="wrapper">
          <Switch>
+            <Route exact path="/" component={() => ( <Portfolio /> )} />
             <Route path="/mini-projects" component={() => ( <MiniProjects /> )} />
-            <Route path="/" component={() => ( <Portfolio /> )} />
-            <Route path="/404" component={() => ( <PageNotFound /> )} />
-            <Redirect from="*" to="/404" />
+            <Route from="*" component={() => ( <PageNotFound /> )} />
          </Switch>
         </div>
       </Router>
