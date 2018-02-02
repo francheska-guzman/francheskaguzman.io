@@ -312,6 +312,10 @@ input[type="button"].p4  {
 	text-align: center;
 }
 
+.eighth-note {
+	color: #c60801;
+}
+
 /* Slideshow */
 
 .slide-size {
