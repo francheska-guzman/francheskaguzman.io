@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Portfolio from './components/Portfolio';
 import MiniProjects from './components/MiniProjects';
+import PageNotFound from './components/PageNotFound';
 
 import {
         BrowserRouter as Router,
@@ -18,7 +19,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={() => ( <Portfolio /> )} />
             <Route path='/mini-projects/' component={() => ( <MiniProjects /> )} />
-            <Route path='/*' component={() => ( <Portfolio /> )} />
+            <Route path='/*' component={() => ( <PageNotFound /> )} />
           </Switch>
   	    </div>
       </Router>
