@@ -9,7 +9,7 @@ class MiniProjects extends Component {
 
         <p>Yey! You have found more treasures!</p>
         <br/>
-        <p>The eighth note <span className="eighth-note">&#x266A;</span> means that the project contains audio effect. Not supported in Safari browser.</p>
+        <p>The eighth note <span className="eighth-note">&#x266A;</span> means that the project contains audio effect.</p>
 
         <div className="mini-projects-center">
           <div className="flexrow space-20">
