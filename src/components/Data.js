@@ -25,8 +25,8 @@ class Data extends Component {
   project2() {
     this.props.project(
       "Stock Market", 
-      "The front-end of a Financial Technology Web Application focused on the Stock Market.",
-      "Enter any username and password to access the Stock Market homepage. I am currently working in a dynamic and redesigned project built in Angular, called 'Brokerage'. The new version will have authentication.",
+      "The front-end of a financial web application focused on the Stock Market.",
+      "Enter any username and password to access the Stock Market homepage.",
       ["HTML", "CSS", "JavaScript"],
       "https://francheska-guzman.github.io/stock-market",
       "https://github.com/francheska-guzman/stock-market",
@@ -53,10 +53,10 @@ class Data extends Component {
       "Movie Finder", 
       "A movie web application where users can find movie information, as well save, edit, or delete movies from Favorites list.",
       'Input a movie title, then press the "Search" button. To save a movie in Favorites list press "Add to Favorites". You will be able to edit the commment, as well delete the movie entry in Favorites.',
-      ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "Express.js", "PostgreSQL", <a href="https://www.themoviedb.org/documentation/api" target="_blank" rel="noopener noreferrer">Third Party API</a>],
+      ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "PostgreSQL"],
       "https://findermovie.herokuapp.com",
       "https://github.com/francheska-guzman/movie-finder",
-      null,
+      "https://themoviedb.org/documentation/api",
       ["./images/movie-finder/1.png", "./images/movie-finder/2.png", null]
     );
   }

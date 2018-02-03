@@ -63,21 +63,21 @@ class Projects extends Component {
  
   /* Render links. */
 
-  live() {
-    if(this.state.live !== null) {
-      return ( <a className="project-buttons" href={this.state.live} target="_blank">Live</a> );
+  code() {
+    if(this.state.code !== null) {
+      return ( <a className="project-buttons" href={this.state.code} target="_blank"><img className="project-icon" src="./images/logo/github-black.png" alt="GitHub" /></a> );
     }
   }
 
-  code() {
-    if(this.state.code !== null) {
-      return ( <a className="project-buttons" href={this.state.code} target="_blank">Code</a> );
+  live() {
+    if(this.state.live !== null) {
+      return ( <a className="project-buttons" href={this.state.live} target="_blank"><img className="project-icon" src="./images/logo/link.png" alt="Live" /></a> );
     }
   }
 
   api() {
     if(this.state.api !== null) {
-      return ( <a className="project-buttons" href={this.state.api} target="_blank">API</a> );
+      return ( <a className="project-buttons" href={this.state.api} target="_blank"><img className="project-icon" src="./images/logo/api.png" alt="API" /></a> );
     }
   }
 
@@ -95,7 +95,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div id='projects'>
+      <div id="projects">
         <div>
           <h3> Projects </h3>
           <p className="paragraph">
@@ -128,11 +128,9 @@ class Projects extends Component {
             </div>
           </div>
         </div>
-
+        <br/>
         <div className="links-wrapper">
-          <span className="decoration">|</span> 
-            {this.live()} {this.code()} {this.api()} 
-          <span className="decoration">|</span>
+          {this.code()} {this.live()} {this.api()} 
         </div>
       </div>
     );

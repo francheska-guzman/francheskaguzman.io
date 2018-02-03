@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 body {
 	background: #fcfcfc;
 	font-family: helvetica;
@@ -25,6 +27,7 @@ h1 {
 	font-weight: 300;
 	color: #FFFFFF;
 	transition: 1s;
+	font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
@@ -33,6 +36,7 @@ h2 {
 	font-weight: 300;
 	color: #D1D1D1;
 	transition: 1s;
+	font-family: 'Quicksand', sans-serif;
 }
 
 h3 {
@@ -49,6 +53,7 @@ h4 {
 	font-weight: 400;
 	text-align: center;
 	transition: 1s;
+	font-family: raleway;
 }
 
 h5 {
@@ -96,11 +101,11 @@ p {
 
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration: none;
-    color: #074484;
+    color: #6c7987;
 }
 
 a:hover {
-	color: #2769ad;
+	color: #7b97b5;
 }
 
 a.nav {
@@ -193,6 +198,15 @@ ul {
 	padding: 0 0 0 28px;
 }
 
+.project-icon {
+	opacity: .9;
+	width: 40px;
+}
+
+.project-icon:hover {
+	opacity: 1;
+}
+
 .right-and-center {
 	text-align: right;
 }
@@ -205,12 +219,6 @@ a.project-buttons {
 .links-wrapper {
 	padding: 20px;
 	text-align: center;
-}
-
-.decoration {
-	color: #f0f0f0;
-	font-size: 30px;
-	font-weight: 100;
 }
 
 /* Data */
@@ -356,6 +364,10 @@ a.resume-link {
 	font-size: 25px;
 }
 
+.resume-image {
+	width: 200px;
+}
+
 /* Footer */
 
 footer {
@@ -443,11 +455,6 @@ a.bone-white:hover {
   	text-align: center;
   	width: 100%;
   }
-
-  .resume {
-	padding-top: 20px;
-  }
-
 }
 
 @media screen and (max-width: 1000px) {
