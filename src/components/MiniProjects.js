@@ -11,8 +11,8 @@ class MiniProjects extends Component {
         <br/>
         <p>The eighth note <span className="eighth-note">&#x266A;</span> means that the project contains audio effect.</p>
 
-        <div className="mini-projects-center">
-          <div className="flexrow space-20">
+        <div className="mini-projects-center space-20">
+          <div className="flex-row">
             <div className="space-1 flex-1">
               <span className="p-title flex-1">Velvet <span className="eighth-note">&#x266A;</span></span>
               <a className="p1 flex-1" href="https://francheska-guzman.github.io/velvet" target="_black">
@@ -33,7 +33,7 @@ class MiniProjects extends Component {
             </div>
           </div>
 
-          <div className="flexrow space-20">
+          <div className="flex-row">
             <div className="space-1 flex-1">
               <span className="p-title flex-1">The Secret Life of Math <span className="eighth-note">&#x266A;</span></span>
               <a className="p1 flex-1" href="https://francheska-guzman.github.io/the-secret-life-of-math/" target="_black">
