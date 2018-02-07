@@ -6,12 +6,13 @@ class About extends Component {
       <div id='about'>
         <h3>About</h3>
         <p className="paragraph">
-        Hi! My name is Francheska, I am from Puerto Rico and living in New York since 2015.
+        Hi everyone!
         <br/><br/>
-        I am a passionate Web Developer, with a background in Accounting and Office Systems Management.
-        My previous experience allows me to quickly understand how financial-related applications needs to work, 
-        as well meet deadlines and devise solutions to problems. 
-        I am always looking to improve the quality of my work, and pushing myself to the next level.       
+        My name is Francheska, I am from Puerto Rico and living in New York since 2015. 
+        I am a passionate web developer who loves to learn new technologies and devise solutions to problems. 
+        Always looking to improve the quality of my work, and pushing myself to the next level. 
+        My previous experience in Accounting and Office Systems Management, allows me to quickly understand how financial-related applications needs to work,
+        and their impact in the real world, as well meet deadlines. I am currently a member of a software testing community called uTest.
         </p>
       </div>
     );
