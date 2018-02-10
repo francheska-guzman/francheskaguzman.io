@@ -15,9 +15,7 @@ A collection of some projects I have been working on.
 
 ## <a name="technologies">Technologies used</a>
 
-* HTML
 * CSS
-* JavaScript
 * JSX
 * React
 
