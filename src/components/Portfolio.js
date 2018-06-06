@@ -11,7 +11,6 @@ class Portfolio extends Component {
     return (
       <div>
         <Home />
-        <Navigation />
         <About />
         <Projects />
         <Contact />

@@ -6,9 +6,6 @@ class MiniProjects extends Component {
     return (
       <div id="mini-projects">
         <h3> Mini Projects </h3>
-
-        <p>Yey! You have found more treasures!</p>
-        <br/>
         <p>The eighth note <span className="eighth-note">&#x266A;</span> means that the project contains audio effect.</p>
 
         <div className="mini-projects-center space-20">
@@ -32,7 +29,6 @@ class MiniProjects extends Component {
               </a>
             </div>
           </div>
-
           <div className="flex-row">
             <div className="space-1 flex-1">
               <span className="p-title flex-1">The Secret Life of Math <span className="eighth-note">&#x266A;</span></span>

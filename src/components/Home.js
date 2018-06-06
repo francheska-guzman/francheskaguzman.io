@@ -9,7 +9,7 @@ class Home extends Component {
       	  <h1>Francheska Guzman</h1>
           <h2>
             <Typist>
-        	   A Full Stack Developer based in New York.
+        	   Full Stack Developer based in New York.
             </Typist>
           </h2>
       	  <br/>
