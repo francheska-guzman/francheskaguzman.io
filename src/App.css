@@ -608,6 +608,10 @@ a.bone-white:hover {
   	transition: 1s;
   }
 
+  .links-wrapper {
+  	padding: 20px 0px;
+  }
+
 }
 
 @media screen and (max-width: 550px) {
