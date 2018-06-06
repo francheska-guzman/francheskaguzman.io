@@ -64,18 +64,18 @@ class Data extends Component {
   projects() {
     if(this.props.state.title === "Credit Report") {
       return (
-        <div className="flexrow space-20">
-          <div className="space-1 flex-1">
-            <span className="p-title flex-1">Stock Market</span>
-            <input className="p2 flex-1" type="button" onClick={this.project2} />
+        <div className="flexrow space-20 column-convert">
+          <div className="space-1 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Stock Market</span>
+            <input className="p2 flex-1 column-convert" type="button" onClick={this.project2} />
           </div>
-          <div className="space-2 flex-1">
-            <span className="p-title flex-1">Connect Four</span>
-            <input className="p3 flex-1" type="button" onClick={this.project3} />
+          <div className="space-2 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Connect Four</span>
+            <input className="p3 flex-1 column-convert" type="button" onClick={this.project3} />
           </div>
-          <div className="space-3 flex-1">
-            <span className="p-title flex-1">Movie Finder</span>
-            <input className="p4 flex-1" type="button" onClick={this.project4} />
+          <div className="space-3 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Movie Finder</span>
+            <input className="p4 flex-1 column-convert" type="button" onClick={this.project4} />
           </div>
         </div>
       )
@@ -83,18 +83,18 @@ class Data extends Component {
 
     else if(this.props.state.title === "Stock Market") {
       return (
-        <div className="flexrow space-20">
-          <div className="space-1 flex-1">
-            <span className="p-title flex-1">Connect Four</span>
-            <input className="p3 flex-1" type="button" onClick={this.project3} />
+        <div className="flexrow space-20 column-convert">
+          <div className="space-1 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Connect Four</span>
+            <input className="p3 flex-1 column-convert" type="button" onClick={this.project3} />
           </div>
-          <div className="space-2 flex-1">
-            <span className="p-title flex-1">Movie Finder</span>
-            <input className="p4 flex-1" type="button" onClick={this.project4} />
+          <div className="space-2 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Movie Finder</span>
+            <input className="p4 flex-1 column-convert" type="button" onClick={this.project4} />
           </div>
-          <div className="space-3 flex-1">
-            <span className="p-title flex-1">Credit Report</span>
-            <input className="p1 flex-1" type="button" onClick={this.project1} />
+          <div className="space-3 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Credit Report</span>
+            <input className="p1 flex-1 column-convert" type="button" onClick={this.project1} />
           </div>
         </div>
       )
@@ -102,18 +102,18 @@ class Data extends Component {
 
     else if(this.props.state.title === "Connect Four") {
       return (
-        <div className="flexrow space-20">
-          <div className="space-1 flex-1">
-            <span className="p-title flex-1">Movie Finder</span>
-            <input className="p4 flex-1" type="button" onClick={this.project4} />
+        <div className="flexrow space-20 column-convert">
+          <div className="space-1 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Movie Finder</span>
+            <input className="p4 flex-1 column-convert" type="button" onClick={this.project4} />
           </div>
-          <div className="space-2 flex-1">
-            <span className="p-title flex-1">Credit Report</span>
-            <input className="p1 flex-1" type="button" onClick={this.project1} />
+          <div className="space-2 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Credit Report</span>
+            <input className="p1 flex-1 column-convert" type="button" onClick={this.project1} />
           </div>
-          <div className="space-3 flex-1">
-            <span className="p-title flex-1">Stock Market</span>
-            <input className="p2 flex-1" type="button" onClick={this.project2} />
+          <div className="space-3 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Stock Market</span>
+            <input className="p2 flex-1 column-convert" type="button" onClick={this.project2} />
           </div>
         </div>
       )
@@ -121,18 +121,18 @@ class Data extends Component {
 
     else {
       return (
-        <div className="flexrow space-20">
-          <div className="space-1 flex-1">
-            <span className="p-title flex-1">Credit Report</span>
-            <input className="p1 flex-1" type="button" onClick={this.project1} />
+        <div className="flexrow space-20 column-convert">
+          <div className="space-1 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Credit Report</span>
+            <input className="p1 flex-1 column-convert" type="button" onClick={this.project1} />
           </div>
-          <div className="space-2 flex-1">
-            <span className="p-title flex-1">Stock Market</span>
-            <input className="p2 flex-1" type="button" onClick={this.project2} />
+          <div className="space-2 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Stock Market</span>
+            <input className="p2 flex-1 column-convert" type="button" onClick={this.project2} />
           </div>
-          <div className="space-3 flex-1">
-            <span className="p-title flex-1">Connect Four</span>
-            <input className="p3 flex-1" type="button" onClick={this.project3} />
+          <div className="space-3 flex-1 column-convert">
+            <span className="p-title flex-1 column-convert">Connect Four</span>
+            <input className="p3 flex-1 column-convert" type="button" onClick={this.project3} />
           </div>
         </div>
       )

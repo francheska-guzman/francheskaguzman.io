@@ -240,7 +240,7 @@ a.project-buttons {
 }
 
 .links-wrapper {
-	padding: 20px;
+	padding: 20px 5px;
 	text-align: center;
 }
 
@@ -566,6 +566,10 @@ a.bone-white:hover {
 	margin: 5px 0 5px 1px;
   }
 
+  .column-convert {
+  	flex-direction: row;
+  }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -610,14 +614,22 @@ a.bone-white:hover {
 
   input[type="button"] {
   	font-size: 16px;
-	height: 75px;
+	height: 180px;
   }
 
   input[type="button"].p1, 
   input[type="button"].p2, 
   input[type="button"].p3, 
   input[type="button"].p4  {
-  	background-size: 100% 75px;
+  	background-size: 100% 180px;
+  }
+
+  .column-convert {
+  	flex-direction: column;
+  }
+
+  .slide-size {
+  	width: 100% 180px;
   }
 
 }
