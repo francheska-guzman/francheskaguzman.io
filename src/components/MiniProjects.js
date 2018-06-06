@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Home from './Home';
+import Footer from './Footer';
 
 class MiniProjects extends Component {
   render() {
     return (
+      <div>
+      <Home />
       <div id="mini-projects">
         <h3> Mini Projects </h3>
         <p>The eighth note <span className="eighth-note">&#x266A;</span> means that the project contains audio effect.</p>
@@ -53,6 +57,8 @@ class MiniProjects extends Component {
         <div className="go-back">
           <Link className="back" to="/">❮ Go Back</Link>
         </div>
+      </div>
+      <Footer />
       </div>
     );
   }
