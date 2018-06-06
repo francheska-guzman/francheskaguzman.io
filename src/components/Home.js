@@ -12,8 +12,6 @@ class Home extends Component {
         	   Full Stack Developer based in New York.
             </Typist>
           </h2>
-      	  <br/>
-      	  <a href="#about"><img alt="Check out my portfolio!" id="anchor" src="./images/logo/anchor-white.png" /></a>
         </div>
       </div>
     );
