@@ -33,6 +33,6 @@ Safari (iPhone)
 
 ## <a name="site">How to see</a>
 
-#### [http://francheska.io](http://francheska.io)
+#### [https://francheska.io](https://francheska.io)
 
 #### [Go back to the Table of Contents](#project)
