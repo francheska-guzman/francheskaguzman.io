@@ -6,14 +6,14 @@ class Projects extends Component {
   constructor(props){
     super(props);
     this.state = {
-      title: "Credit Report",
-      description: "A financial technology application that calculates the six credit factors based on user’s financial information contained in the Credit Report API.",
-      instructions: "Type 1 or 2 in the provided input field, to get user's information.",
-      technologies: ["HTML", "CSS", "JavaScript", "JSX", "React", "Node.js", "Express.js", "PostgreSQL"],
-      live: "https://francheska-guzman.github.io/credit-report",
-      code: "https://github.com/francheska-guzman/credit-report",
-      api: "https://creditreportapi.herokuapp.com",
-      slideshow: ["./images/credit-report/1.png", "", ""]
+      title: "Connect Four",
+      description: "The classic board game Connect Four, is a two-player game board in which the players take turns dropping tokens from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form an horizontal, vertical, or diagonal line of four of one's own token.",
+      instructions: 'Refer to "How to Play" link located at the top of the board.',
+      technologies: ["HTML", "CSS", "JavaScript"],
+      live: "https://francheska-guzman.github.io/connect-four",
+      code: "https://github.com/francheska-guzman/connect-four",
+      api: null,
+      slideshow: ["./images/connect-four/1.png", "./images/connect-four/2.png", "./images/connect-four/3.png"]
     }
     this.project = this.project.bind(this);
     this.description = this.description.bind(this);
