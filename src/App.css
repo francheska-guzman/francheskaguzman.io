@@ -193,7 +193,7 @@ ul {
 /* About */
 
 #about {
-	padding: 80px;
+	padding: 100px 80px;
 	transition: 1s;
 	background: #F9F9F9;
 }
@@ -208,7 +208,7 @@ ul {
 /* Projects */
 
 #projects {
-	padding: 80px;
+	padding: 100px 80px;
 	transition: 1s;
 	background: #FFFFFF;
 }
@@ -326,7 +326,7 @@ input[type="button"].p4  {
 /* Mini Projects */
 
 #mini-projects {
-	padding: 80px;
+	padding: 100px 80px;
 	transition: 1s;
 	background: #F9F9F9;
 }
@@ -372,7 +372,7 @@ input[type="button"].p4  {
 /* Contact */
 
 #contact {
-	padding: 80px;
+	padding: 100px 80px;
 	transition: 1s;
 	background: #FBFBFB;
 }
@@ -555,7 +555,7 @@ a.bone-white:hover {
   }
 
   #projects, #about, #contact, #mini-projects {
-	padding: 60px;
+	padding: 80px 60px;
 	transition: 1s;
   }
 
@@ -644,6 +644,11 @@ a.bone-white:hover {
 
   .slide-size {
   	height: 180px;
+  }
+
+   #projects, #about, #contact, #mini-projects {
+	padding: 60px 40px;
+	transition: 1s;
   }
 
 }
