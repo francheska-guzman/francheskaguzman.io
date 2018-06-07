@@ -1,6 +1,6 @@
 ![Portfolio under the sea...](./public/images/logo/anchor-black.png)
 
-# <a name="project">Portfolio</a>
+# <a name="project">Portfolio and Resume</a>
 
 ### Table of Contents
 
