@@ -11,7 +11,7 @@
 
 ## <a name="description">Description</a>
 
-A collection of some projects I have been working on.
+A collection of some projects I have been working on, and my most updated resume.
 
 ## <a name="technologies">Technologies used</a>
 
