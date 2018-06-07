@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC|Quicksand');
 
 body {
 	background: #fcfcfc;
@@ -26,7 +26,7 @@ h1 {
 	margin: 0;
 	font-weight: 300;
 	transition: 1s;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Marcellus SC', serif;
 	color: #595757;
 }
 
