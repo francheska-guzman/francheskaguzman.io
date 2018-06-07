@@ -11,9 +11,7 @@ class Contact extends Component {
             <h6>E-mail: gffrancheska@gmail.com</h6>
             <h6>Telephone: 787-410-9414</h6>
             <h6>
-            <a href="/documents/francheska-guzman-resume.pdf" 
-               rel="noopener noreferrer" 
-               target="_blank">Resume</a>
+            <a href="./documents/francheska-guzman-resume.pdf" target="_blank">Resume</a>
             </h6>
       </div>
     );
