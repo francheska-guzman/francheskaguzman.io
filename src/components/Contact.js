@@ -10,6 +10,7 @@ class Contact extends Component {
         <br/>
             <h6>Francheska Guzman</h6>
             <h6>E-mail: gffrancheska@gmail.com</h6>
+            <h6>Skype: francheska-guzman@outlook.com</h6>
             <h6>Telephone: 787-410-9414</h6>
             <h6><a href = {PDF} target = "_blank">Resume</a></h6>
       </div>
