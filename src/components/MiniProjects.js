@@ -41,8 +41,8 @@ class MiniProjects extends Component {
               </a>
             </div>
             <div className="space-2 flex-1">
-              <span className="p-title flex-1">Weather</span>
-              <a className="p2 flex-1" href="https://francheska-guzman.github.io/weather/" target="_black">
+              <span className="p-title flex-1">Weather Forecast</span>
+              <a className="p2 flex-1" href="https://francheska-guzman.github.io/weather-forecast/" target="_black">
                   <img className="slide-size" alt="Weather" src="./images/weather/1.png" />
               </a>
             </div>
